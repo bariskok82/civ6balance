@@ -1,0 +1,27 @@
+
+--==============================================================
+--******				    O T H E R					  ******
+--==============================================================
+
+UPDATE GlobalParameters SET Value='2' WHERE Name='EXPERIENCE_BARB_SOFT_CAP';
+UPDATE GlobalParameters SET Value='4' WHERE Name='EXPERIENCE_MAX_BARB_LEVEL';
+UPDATE GlobalParameters SET Value='8' WHERE Name='EXPERIENCE_MAX_LEVEL';
+UPDATE GlobalParameters SET Value='10' WHERE Name='EXPERIENCE_MAXIMUM_ONE_COMBAT';
+DELETE FROM TraitModifiers WHERE TraitType='TRAIT_LEADER_MAJOR_CIV' AND ModifierId='BARBARIAN_CAMP_GOLD_SCALING';
+
+UPDATE GlobalParameters SET Value='-4'WHERE Name='THRESHOLD_SHIFT_PER_PAST_DARK_AGE';
+UPDATE GlobalParameters SET Value='8' WHERE Name='THRESHOLD_SHIFT_PER_PAST_GOLDEN_AGE';
+UPDATE GlobalParameters SET Value='0' WHERE Name='GREATWORK_ART_LOCK_TIME';
+UPDATE GlobalParameters SET Value='2' WHERE Name='RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_DESTINATION';
+UPDATE GlobalParameters SET Value='1' WHERE Name='RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_ORIGIN';
+UPDATE GlobalParameters SET Value='3' WHERE Name='YIELD_FOOD_CITY_TERRAIN_REPLACE';
+UPDATE GlobalParameters SET Value='2' WHERE Name='YIELD_PRODUCTION_CITY_TERRAIN_REPLACE';
+UPDATE GlobalParameters SET Value='3' WHERE Name='GOVERNOR_BASE_TURNS_TO_ESTABLISH';
+
+UPDATE GlobalParameters SET Value='-20' WHERE Name='FAVOR_CO2_MINIMUM';
+UPDATE GlobalParameters SET Value='-20' WHERE Name='FAVOR_GRIEVANCES_MINIMUM';
+UPDATE GlobalParameters SET Value='-2' WHERE Name='FAVOR_PER_OWNED_ORIGINAL_CAPITAL';
+UPDATE GlobalParameters SET Value='3' WHERE Name='WORLD_CONGRESS_INITIAL_ERA';
+UPDATE GlobalParameters SET Value='6' WHERE Name='WORLD_CONGRESS_REQUEST_FOR_AID_DAMAGE_MIN';
+UPDATE GlobalParameters SET Value='30' WHERE Name='DIPLOMATIC_VICTORY_POINTS_REQUIRED';
+

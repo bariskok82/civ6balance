@@ -1,0 +1,21 @@
+UPDATE Technologies SET Cost = ROUND(Cost*1.0)	WHERE EraType = 'ERA_ANCIENT';
+UPDATE Technologies SET Cost = ROUND(Cost*1.1)  WHERE EraType = 'ERA_CLASSICAL';
+UPDATE Technologies SET Cost = ROUND(Cost*1.2)  WHERE EraType = 'ERA_MEDIEVAL';
+UPDATE Technologies SET Cost = ROUND(Cost*1.32)  WHERE EraType = 'ERA_RENAISSANCE';
+UPDATE Technologies SET Cost = ROUND(Cost*1.45)	WHERE EraType = 'ERA_INDUSTRIAL';
+UPDATE Technologies SET Cost = ROUND(Cost*1.6)	WHERE EraType = 'ERA_MODERN';
+UPDATE Technologies SET Cost = ROUND(Cost*1.78)	WHERE EraType = 'ERA_ATOMIC';
+UPDATE Technologies SET Cost = ROUND(Cost*2.0)	WHERE EraType = 'ERA_INFORMATION';
+UPDATE Technologies SET Cost = ROUND(Cost*2.4)	WHERE EraType = 'ERA_FUTURE';
+UPDATE TechnologyRandomCosts SET Cost = ROUND(Cost*2.4);
+
+UPDATE Civics SET Cost = ROUND(Cost*1.0) WHERE EraType = 'ERA_ANCIENT';
+UPDATE Civics SET Cost = ROUND(Cost*1.1) WHERE EraType = 'ERA_CLASSICAL';
+UPDATE Civics SET Cost = ROUND(Cost*1.2) WHERE EraType = 'ERA_MEDIEVAL';
+UPDATE Civics SET Cost = ROUND(Cost*1.32) WHERE EraType = 'ERA_RENAISSANCE';
+UPDATE Civics SET Cost = ROUND(Cost*1.45) WHERE EraType = 'ERA_INDUSTRIAL';
+UPDATE Civics SET Cost = ROUND(Cost*1.6) WHERE EraType = 'ERA_MODERN';
+UPDATE Civics SET Cost = ROUND(Cost*1.78) WHERE EraType = 'ERA_ATOMIC';
+UPDATE Civics SET Cost = ROUND(Cost*2.0) WHERE EraType = 'ERA_INFORMATION';
+UPDATE Civics SET Cost = ROUND(Cost*2.4) WHERE EraType = 'ERA_FUTURE';
+UPDATE CivicRandomCosts SET Cost = ROUND(Cost*2.4);

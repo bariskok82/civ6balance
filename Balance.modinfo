@@ -1,0 +1,112 @@
+<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="9999">
+	<Properties>
+		<Name>Balance</Name>
+		<Description>Balance (Personal Use)</Description>
+		<Teaser>Balance</Teaser>
+		<Authors>bariskok82</Authors>
+		<Version>9999</Version>
+		<SpecialThanks>Everyone</SpecialThanks>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+    	<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+	</Dependencies>
+	<!-- can load only select files based on these requirements, if applied -->
+	<ActionCriteria>
+	</ActionCriteria>
+
+	<!-- defines pre-game mods (e.g. menus, visual, text, etc..) -->
+	<FrontEndActions>
+		<UpdateText id="pregame_text_updates">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<File>english.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
+	<InGameActions>
+		<UpdateText id="text_updates">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<File>english.xml</File>
+		</UpdateText>
+		
+		<UpdateIcons id="icon_updates">
+			<File>icons.sql</File>
+		</UpdateIcons>
+
+		<UpdateDatabase id="data_updates">
+			<Properties>
+				<LoadOrder>20000</LoadOrder>
+			</Properties>
+			<File>base.sql</File>
+			<File>policies.sql</File>
+			<File>citystates.sql</File>
+			<File>greatpeople.sql</File>
+			<File>districts.sql</File>
+			<File>districts_appeal.sql</File>
+			<File>districts_freshwater.sql</File>
+			<File>specialists.sql</File>
+			<File>climate.sql</File>
+			<File>routes.sql</File>
+			<File>speed.sql</File>
+			<File>buildings.sql</File>
+			<File>improvements.sql</File>
+			<File>energy.sql</File>
+			<File>naturalwonders.sql</File>
+			<File>goodyhut.sql</File>
+			<File>units.sql</File>
+			<File>satellites.sql</File>
+			<File>districts_remove.sql</File>
+			<File>wonders.sql</File>
+			<File>religion.sql</File>
+			<File>governors.sql</File>
+			<File>events.sql</File>
+		</UpdateDatabase>
+		<ReplaceUIScript id="ProjectBuiltPopup">
+			<Properties>
+				<LuaContext>ProjectBuiltPopup</LuaContext>
+				<LuaReplace>satellites_popup.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<AddGameplayScripts id="Lua">
+			<File>districts_remove.lua</File>
+			<File>goodyhut_extra.lua</File>
+		</AddGameplayScripts>
+	</InGameActions>
+
+	<!-- defines file dependencies -->
+	<Files>
+		<File>english.xml</File>
+		<File>icons.sql</File>
+		<File>base.sql</File>
+		<File>policies.sql</File>
+		<File>citystates.sql</File>
+		<File>greatpeople.sql</File>
+		<File>districts.sql</File>
+		<File>districts_appeal.sql</File>
+		<File>districts_freshwater.sql</File>
+		<File>specialists.sql</File>
+		<File>climate.sql</File>
+		<File>routes.sql</File>
+		<File>speed.sql</File>
+		<File>buildings.sql</File>
+		<File>improvements.sql</File>
+		<File>energy.sql</File>
+		<File>naturalwonders.sql</File>
+		<File>goodyhut.sql</File>
+		<File>goodyhut_extra.lua</File>
+		<File>units.sql</File>
+		<File>satellites.sql</File>
+		<File>satellites_popup.lua</File>
+		<File>districts_remove.sql</File>
+		<File>districts_remove.lua</File>
+		<File>wonders.sql</File>
+		<File>religion.sql</File>
+		<File>governors.sql</File>
+		<File>events.sql</File>
+	</Files>
+</Mod>
