@@ -26,6 +26,9 @@ UPDATE GreatWorks SET Tourism='4' WHERE GreatWorkObjectType='GREATWORKOBJECT_MUS
 UPDATE GreatWorks SET Tourism='6' WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIC';
 UPDATE GreatWorks SET Tourism='3' WHERE GreatWorkObjectType='GREATWORKOBJECT_ARTIFACT';
 
+DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_CANTEMIR_3';
+DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_JOPLIN_3';
+
 UPDATE GreatWork_YieldChanges SET YieldChange='2' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_WRITING');
 UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIGIOUS');
 UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_SCULPTURE');
@@ -34,6 +37,15 @@ UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT
 UPDATE GreatWork_YieldChanges SET YieldChange='4' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_MUSIC');
 UPDATE GreatWork_YieldChanges SET YieldChange='6' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIC');
 UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_ARTIFACT');
+
+INSERT INTO TechnologyModifiers(TechnologyType, ModifierId) VALUES
+('TECH_PRINTING', 'PRINTING_BOOST_WRITING_CULTURE_BK');
+INSERT INTO Modifiers(ModifierId, ModifierType) VALUES
+('PRINTING_BOOST_WRITING_CULTURE_BK', 'MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD');
+INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
+('PRINTING_BOOST_WRITING_CULTURE_BK', 'GreatWorkObjectType', 'GREATWORKOBJECT_WRITING'),
+('PRINTING_BOOST_WRITING_CULTURE_BK', 'YieldType', 'YIELD_CULTURE'),
+('PRINTING_BOOST_WRITING_CULTURE_BK', 'YieldChange', 2);
 
 -- Great General --
 UPDATE GreatPersonIndividuals SET ActionCharges='2' WHERE GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_AETHELFLAED';

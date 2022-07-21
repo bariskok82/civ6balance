@@ -598,16 +598,16 @@
 			<Text>Provides +4 [ICON_Power] Power per turn from renewable water sources.[NEWLINE][NEWLINE]Extra +2 [ICON_Power] Power per turn when the Computers technology is researched.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Wind Farm.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +1 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built adjacent to Coast.[NEWLINE]Extra +1 [ICON_Power] Power per turn when the Lasers technology is researched.[NEWLINE]Can only be built on Hills terrain.</Text>
+			<Text>Unlocks the Builder ability to construct a Wind Farm.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +1 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built adjacent to Coast.[NEWLINE]Can only be built on Hills terrain.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct an Offshore Wind Farm.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built on Ocean.[NEWLINE]Can only be built on Coast, Lake or Ocean terrain. Requires the Nuclear Fusion technology to be built on Ocean terrain.</Text>
+			<Text>Unlocks the Builder ability to construct an Offshore Wind Farm.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built on Ocean.[NEWLINE]Can only be built on Coast, Lake or Ocean terrain.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Solar Farm.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +1 [ICON_Power] Power per turn from renewable solar sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built on Desert.[NEWLINE]Extra +1 [ICON_Power] Power per turn when the Composites technology is reseached.[NEWLINE]Can only be built on flat terrain. Requires the Guidance Systems technology to be built on Tundra or Snow terrain.</Text>
+			<Text>Unlocks the Builder ability to construct a Solar Farm.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +1 [ICON_Power] Power per turn from renewable solar sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built on Desert.[NEWLINE]Extra +1 [ICON_Power] Power per turn when the Composites technology is reseached.[NEWLINE]Can only be built on flat terrain.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +2 [ICON_Power] Power per turn from renewable geothermal sources.[NEWLINE]Extra +2 [ICON_Power] Power per turn, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold if built on a Geothermal Fissure.[NEWLINE]Extra +1 [ICON_Power] Power per turn when the Nanotechnology technology is researched.[NEWLINE]Can only be built on Geothermal Fissure or Volcanic Soil.</Text>
+			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, and +1 [ICON_SCIENCE] Science. Provides +2 [ICON_Power] Power per turn from renewable geothermal sources.[NEWLINE]Extra +2 [ICON_Power] Power per turn, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold if built on a Geothermal Fissure.[NEWLINE]Can only be built on Geothermal Fissure or Volcanic Soil.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Seastead.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food. +1 [ICON_Production] Production for each adjacent Fishing Boats. Fishing Boats receive +1 [ICON_Production] Production for each adjacent Seastead. +1 [ICON_Gold] Gold for each adjacent Offshore Wind Farm. +1 [ICON_Culture] Culture and [ICON_Tourism] Tourism for each adjacent Reef. +2 [ICON_HOUSING] Housing.[NEWLINE]Can only be built on Coast, Lake or Ocean terrain. Cannot be built adjacent to another Seastead.</Text>
@@ -1039,59 +1039,6 @@
 		</Replace>
 		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_ECOLOGY_POPUP" Language="en_US">
 			<Text>You've successfully launched a ecology satellite into orbit! Allows sustainable growth by restoring local ecosystem.</Text>
-		</Replace>
-		
-		<!-- remove district -->
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_HOLY_SITE_NAME" Language="en_US">
-			<Text>Remove Holy Site</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_CAMPUS_NAME" Language="en_US">
-			<Text>Remove Campus</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_COMMERCIAL_HUB_NAME" Language="en_US">
-			<Text>Remove Commercial Hub</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_THEATER_NAME" Language="en_US">
-			<Text>Remove Theater Square</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_INDUSTRIAL_ZONE_NAME" Language="en_US">
-			<Text>Remove Industrial Zone</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_ENCAMPMENT_NAME" Language="en_US">
-			<Text>Remove Encampment</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_HARBOR_NAME" Language="en_US">
-			<Text>Remove Harbor</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_AERODROME_NAME" Language="en_US">
-			<Text>Remove Aerodrome</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_ENTERTAINMENT_COMPLEX_NAME" Language="en_US">
-			<Text>Remove Entertainment Complex</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_NAME" Language="en_US">
-			<Text>Remove Water Park</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_PRESERVE_NAME" Language="en_US">
-			<Text>Remove Preserve</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_SPACEPORT_NAME" Language="en_US">
-			<Text>Remove Spaceport</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_NEIGHBORHOOD_NAME" Language="en_US">
-			<Text>Remove Neighborhood</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_AQUEDUCT_NAME" Language="en_US">
-			<Text>Remove Aqueduct</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_DAM_NAME" Language="en_US">
-			<Text>Remove Dam</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_REMOVE_DISTRICT_CANAL_NAME" Language="en_US">
-			<Text>Remove Canal</Text>
 		</Replace>
 		
 		<!-- gossip -->
@@ -1624,6 +1571,56 @@
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT" Language="en_US">
 			<Text>Envoys sent to City-States you have a [ICON_TradeRoute] Trade Route to count as two [ICON_Envoy] Envoys.</Text>
+		</Replace>
+		
+		<!-- technology -->
+		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
+			<Text>Allows Builders to embark, and allows harvesting of [ICON_RESOURCE_FISH] Fish and [ICON_RESOURCE_CRABS] Crabs.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION" Language="en_US">
+			<Text>Allows Traders to embark.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_PRINTING_DESCRIPTION" Language="en_US">
+			<Text>Provides one more level of diplomatic visibility on all other civilizations. All [ICON_Culture] Culture and [ICON_Tourism] Tourism yields from [ICON_GreatWork_Writing] Great Works of Writing are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to construct an additional Spy. +2 [ICON_Power] Power per turn to Hydroelectric Dam. +25% [ICON_Tourism] Tourism across your empire.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_DESCRIPTION" Language="en_US">
+			<Text>Unlocks Aircraft Carrier upgrade: Flight Deck, Scout Planes[NEWLINE]+1 additional aircraft slot. +1 sight range.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STEALTH_TECHNOLOGY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks Aircraft Carrier upgrade: Hangar Deck, Advanced Engines[NEWLINE]+1 additional aircraft slot. +1 [ICON_Movement] Movement.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="en_US">
+			<Text>Pasture improvements receive +1 [ICON_Food] Food. Unlocks Aircraft Carrier upgrade: Folding Wings, Deck Crews, Supercarrier[NEWLINE]+1 additional aircraft slot. Can heal after attacking. Heal outside of friendly territory.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION" Language="en_US">
+			<Text>Can build Solar Farms on Tundra and Snow terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_NUCLEAR_FUSION_DESCRIPTION" Language="en_US">
+			<Text>Can build Offshore Wind Farms on Ocean terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPOSITES_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Power] Power per turn to Solar Farms.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_LASERS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Power] Power per turn to Wind Farms.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_NANOTECHNOLOGY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Power] Power per turn to Geothermal Plants.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production to Mines. Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_Strength] Combat Strength when defending against land and naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CYBERNETICS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production to Lumber Mills. Unlocks Giant Death Robot upgrade: Enhanced Mobility[NEWLINE]+3 [ICON_Movement] Movement. Can perform a Jump action to cross over mountain terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_PREDICTIVE_SYSTEMS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production to Quarry, Oil Well, and Offshore Oil Rig improvements.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

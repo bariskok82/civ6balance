@@ -60,7 +60,6 @@
 			<File>goodyhut.sql</File>
 			<File>units.sql</File>
 			<File>satellites.sql</File>
-			<File>districts_remove.sql</File>
 			<File>wonders.sql</File>
 			<File>religion.sql</File>
 			<File>governors.sql</File>
@@ -73,7 +72,6 @@
 			</Properties>
 		</ReplaceUIScript>
 		<AddGameplayScripts id="Lua">
-			<File>districts_remove.lua</File>
 			<File>goodyhut_extra.lua</File>
 		</AddGameplayScripts>
 	</InGameActions>
@@ -102,8 +100,6 @@
 		<File>units.sql</File>
 		<File>satellites.sql</File>
 		<File>satellites_popup.lua</File>
-		<File>districts_remove.sql</File>
-		<File>districts_remove.lua</File>
 		<File>wonders.sql</File>
 		<File>religion.sql</File>
 		<File>governors.sql</File>
