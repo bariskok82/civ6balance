@@ -13,6 +13,9 @@ UPDATE ModifierArguments SET Value='1' WHERE ModifierId='MINOR_CIV_NAN_MADOL_DIS
 -- Kumasi nerf
 UPDATE ModifierArguments SET Value='1' WHERE ModifierId='MINOR_CIV_KUMASI_CULTURE_TRADE_ROUTE_YIELD_BONUS' AND Name='Amount';
 
+-- Samarkand buff
+UPDATE Modifiers SET SubjectRequirementSetId = NULL WHERE ModifierId='MINOR_CIV_SAMARKAND_TRADE_GOLD';
+
 -- Kandy buff
 UPDATE ModifierArguments SET Value='200' WHERE ModifierId='MINOR_CIV_KANDY_BETTER_RELIC_BONUS' AND Name='ScalingFactor';
 

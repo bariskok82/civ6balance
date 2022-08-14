@@ -1,6 +1,4 @@
--- UC_DHA_Amenities
--- Author: JNR
---------------------------------------------------------------
+-- Credit: JNR
 
 UPDATE Features	SET Appeal=0 WHERE FeatureType='FEATURE_FLOODPLAINS';
 UPDATE Features	SET Appeal=0 WHERE FeatureType='FEATURE_FLOODPLAINS_GRASSLAND';

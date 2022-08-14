@@ -21,7 +21,11 @@
 			<Properties>
 				<LoadOrder>200</LoadOrder>
 			</Properties>
-			<File>english.xml</File>
+			<File>english_infra.xml</File>
+			<File>english_state.xml</File>
+			<File>english_diplo.xml</File>
+			<File>english_nature.xml</File>
+			<File>english_other.xml</File>
 		</UpdateText>
 	</FrontEndActions>
 
@@ -31,7 +35,11 @@
 			<Properties>
 				<LoadOrder>200</LoadOrder>
 			</Properties>
-			<File>english.xml</File>
+			<File>english_infra.xml</File>
+			<File>english_state.xml</File>
+			<File>english_diplo.xml</File>
+			<File>english_nature.xml</File>
+			<File>english_other.xml</File>
 		</UpdateText>
 		
 		<UpdateIcons id="icon_updates">
@@ -64,6 +72,7 @@
 			<File>religion.sql</File>
 			<File>governors.sql</File>
 			<File>events.sql</File>
+			<File>leader.sql</File>
 		</UpdateDatabase>
 		<ReplaceUIScript id="ProjectBuiltPopup">
 			<Properties>
@@ -78,7 +87,11 @@
 
 	<!-- defines file dependencies -->
 	<Files>
-		<File>english.xml</File>
+		<File>english_infra.xml</File>
+		<File>english_state.xml</File>
+		<File>english_diplo.xml</File>
+		<File>english_nature.xml</File>
+		<File>english_other.xml</File>
 		<File>icons.sql</File>
 		<File>base.sql</File>
 		<File>policies.sql</File>
@@ -104,5 +117,6 @@
 		<File>religion.sql</File>
 		<File>governors.sql</File>
 		<File>events.sql</File>
+		<File>leader.sql</File>
 	</Files>
 </Mod>

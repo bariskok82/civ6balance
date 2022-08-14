@@ -1,9 +1,3 @@
-------------------------------------------------------------------------------
---	FILE:	 new_bbg_greatpeople.sql
---	AUTHOR:  iElden, D. / Jack The Narrator
---	PURPOSE: Database modifications by new BBG
-------------------------------------------------------------------------------
-
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
 ('AOE_LOYALTY_REQUIREMENTS_JNR',	'REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
@@ -26,9 +20,6 @@ UPDATE GreatWorks SET Tourism='4' WHERE GreatWorkObjectType='GREATWORKOBJECT_MUS
 UPDATE GreatWorks SET Tourism='6' WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIC';
 UPDATE GreatWorks SET Tourism='3' WHERE GreatWorkObjectType='GREATWORKOBJECT_ARTIFACT';
 
-DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_CANTEMIR_3';
-DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_JOPLIN_3';
-
 UPDATE GreatWork_YieldChanges SET YieldChange='2' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_WRITING');
 UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIGIOUS');
 UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_SCULPTURE');
@@ -38,10 +29,15 @@ UPDATE GreatWork_YieldChanges SET YieldChange='4' WHERE GreatWorkType IN (SELECT
 UPDATE GreatWork_YieldChanges SET YieldChange='6' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIC');
 UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType='GREATWORKOBJECT_ARTIFACT');
 
+DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_CANTEMIR_3';
+DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_JOPLIN_3';
+UPDATE Building_GreatWorks SET NonUniquePersonYield=3, NonUniquePersonTourism=3 WHERE BuildingType='BUILDING_HERMITAGE';
+UPDATE Building_GreatWorks SET NonUniquePersonYield=3, NonUniquePersonTourism=3 WHERE BuildingType='BUILDING_GOV_CULTURE';
+
 INSERT INTO TechnologyModifiers(TechnologyType, ModifierId) VALUES
 ('TECH_PRINTING', 'PRINTING_BOOST_WRITING_CULTURE_BK');
 INSERT INTO Modifiers(ModifierId, ModifierType) VALUES
-('PRINTING_BOOST_WRITING_CULTURE_BK', 'MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD');
+('PRINTING_BOOST_WRITING_CULTURE_BK', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD');
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 ('PRINTING_BOOST_WRITING_CULTURE_BK', 'GreatWorkObjectType', 'GREATWORKOBJECT_WRITING'),
 ('PRINTING_BOOST_WRITING_CULTURE_BK', 'YieldType', 'YIELD_CULTURE'),

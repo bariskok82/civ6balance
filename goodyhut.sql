@@ -37,7 +37,6 @@ UPDATE ModifierArguments SET Value = 50 WHERE ModifierID = 'GOODY_GOLD_SMALL_MOD
 UPDATE GoodyHutSubTypes SET Weight = 10, Turn = 20, MinOneCity = 0 WHERE SubTypeGoodyHut = 'GOODYHUT_LARGE_FAITH';
 UPDATE GoodyHutSubTypes SET Weight = 30, Turn = 20, MinOneCity = 0 WHERE SubTypeGoodyHut = 'GOODYHUT_MEDIUM_FAITH';
 UPDATE GoodyHutSubTypes SET Weight = 60, Turn = 10, MinOneCity = 0 WHERE SubTypeGoodyHut = 'GOODYHUT_SMALL_FAITH';
-UPDATE ModifierArguments SET Value = 250 WHERE ModifierID = 'GOODY_FAITH_HUGE_MODIFIER' AND Name = 'Amount';
 UPDATE ModifierArguments SET Value = 200 WHERE ModifierID = 'GOODY_FAITH_LARGE_MODIFIER' AND Name = 'Amount';
 UPDATE ModifierArguments SET Value = 100 WHERE ModifierID = 'GOODY_FAITH_MEDIUM_MODIFIER' AND Name = 'Amount';
 UPDATE ModifierArguments SET Value = 50 WHERE ModifierID = 'GOODY_FAITH_SMALL_MODIFIER' AND Name = 'Amount';

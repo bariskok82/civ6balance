@@ -1,5 +1,4 @@
--- UC_FWW_Shared
--- Author: JNR
+-- Credit: JNR
 
 INSERT INTO Types(Type, Kind) VALUES
 		('MODIFIER_CITY_ADJUST_WATER_HOUSING_JNR_UC',		'KIND_MODIFIER');

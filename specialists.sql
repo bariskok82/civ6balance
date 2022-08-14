@@ -1,7 +1,7 @@
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_INDUSTRIAL_ZONE' OR DistrictType='DISTRICT_HANSA' OR DistrictType='DISTRICT_OPPIDUM';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_COMMERCIAL_HUB' OR DistrictType='DISTRICT_SUGUBA';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_CAMPUS' OR DistrictType='DISTRICT_OBSERVATORY';
-UPDATE Districts SET CitizenSlots=2	WHERE DistrictType='DISTRICT_SEOWON';
+UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_SEOWON';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_THEATER' OR DistrictType='DISTRICT_ACROPOLIS';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_HOLY_SITE' OR DistrictType='DISTRICT_LAVRA';
 
@@ -11,7 +11,7 @@ UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_AERODROME';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_ENTERTAINMENT_COMPLEX' OR DistrictType='DISTRICT_STREET_CARNIVAL';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_WATER_ENTERTAINMENT_COMPLEX' OR DistrictType='DISTRICT_WATER_STREET_CARNIVAL';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_NEIGHBORHOOD';
-UPDATE Districts SET CitizenSlots=2	WHERE DistrictType='DISTRICT_MBANZA';
+UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_MBANZA';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_GOVERNMENT';
 UPDATE Districts SET CitizenSlots=1	WHERE DistrictType='DISTRICT_DIPLOMATIC_QUARTER';
 

@@ -57,6 +57,9 @@ INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 	('ALLIANCE_ENTERTAINMENT_BK', 'Amount', 3),
 	('ALLIANCE_ENVOY_POINTS_BK', 'Amount', 1);
+INSERT INTO ModifierStrings(ModifierId, Context, Text) VALUES
+	('ALLIANCE_ENTERTAINMENT_BK', 'Summary', 'LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1'),
+	('ALLIANCE_ENVOY_POINTS_BK', 'Summary', 'LOC_ALLIANCE_LV3_ECONOMIC_EFFECT');
 INSERT INTO AllianceEffects(AllianceType, LevelRequirement, ModifierID) VALUES
 	('ALLIANCE_ECONOMIC', 2, 'ALLIANCE_ENTERTAINMENT_BK'),
 	('ALLIANCE_ECONOMIC', 3, 'ALLIANCE_ENVOY_POINTS_BK');
