@@ -15,6 +15,7 @@ INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VA
 	('IMPROVEMENT_SPHINX', 'YIELD_GOLD', 0);
 INSERT INTO Improvement_BonusYieldChanges(Id, ImprovementType, YieldType, BonusYieldChange, PrereqCivic) VALUES
 	(150, 'IMPROVEMENT_SPHINX', 'YIELD_GOLD', 2, 'CIVIC_NATURAL_HISTORY');
+UPDATE ModifierArguments SET VALUE=2 WHERE ModifierId='CLEOPATRA_FLOODPLAINS_APPEAL' AND Name='Amount';
 
 UPDATE Improvement_YieldChanges SET YieldChange=1 WHERE ImprovementType='IMPROVEMENT_PAIRIDAEZA' AND YieldType='YIELD_GOLD';
 UPDATE Adjacency_YieldChanges SET YieldChange=2 WHERE ID='Pairidaeza_CommercialHubAdjacency';

@@ -583,7 +583,7 @@
 			<Text>All current units gain a promotion level when completed. All Archaeologists can enter foreign territory without Open Borders. Must be built on Grassland or Plains without Hills adjacent to Encampment district with Barracks or Stable building.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Gold] Gold on Breathtaking tiles in your empire. Cities not on your [ICON_Capital] Capital's continent receive a City Center building with the lowest cost when completed. Must be built on Coast adjacent to land and Harbor district.</Text>
+			<Text>+2 [ICON_Gold] Gold on Breathtaking tiles in your empire. All founded cities not on your [ICON_Capital] Capital's continent receive a City Center building with the lowest cost when completed. Must be built on Coast adjacent to land and Harbor district.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="en_US">
 			<Text>Foreign [ICON_TradeRoute] Trade Routes to this city provide +1 [ICON_SCIENCE] Science and +1 [ICON_GOLD] Gold for them. +2 [ICON_SCIENCE] Science for every [ICON_TradeRoute] Trade Route to this city. Domestic [ICON_TradeRoute] Trade Routes to this city provide extra +1 [ICON_FAITH] Faith to this city. Must be built on Desert adjacent to Campus district.</Text>
