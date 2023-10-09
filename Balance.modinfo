@@ -1,10 +1,10 @@
-<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="9999">
+<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="1">
 	<Properties>
-		<Name>Balance</Name>
-		<Description>Balance (Personal Use)</Description>
-		<Teaser>Balance</Teaser>
+		<Name>bariskok82's Civ 6 Balance</Name>
+		<Description>bariskok82's Civ 6 Balance (Personal Use)</Description>
+		<Teaser>bariskok82's Civ 6 Balance</Teaser>
 		<Authors>bariskok82</Authors>
-		<Version>9999</Version>
+		<Version>1</Version>
 		<SpecialThanks>Everyone</SpecialThanks>
 		<CompatibleVersions>2.0</CompatibleVersions>
 		<AffectsSavedGames>0</AffectsSavedGames>
