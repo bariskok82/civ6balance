@@ -123,6 +123,11 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 
 UPDATE Buildings SET DefenseModifier=4 WHERE BuildingType='BUILDING_MONT_ST_MICHEL';
 
+INSERT INTO Building_ValidTerrains(BuildingType, TerrainType) VALUES
+		('BUILDING_OXFORD_UNIVERSITY', 'TERRAIN_TUNDRA'),
+		('BUILDING_OXFORD_UNIVERSITY', 'TERRAIN_SNOW'),
+		('BUILDING_OXFORD_UNIVERSITY', 'TERRAIN_DESERT');
+
 INSERT INTO BuildingModifiers(BuildingType, ModifierId) VALUES
 		('BUILDING_PANAMA_CANAL', 'PANAMA_CANAL_GOLD_BK');
 INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES
@@ -181,6 +186,11 @@ UPDATE Buildings SET AdjacentDistrict='DISTRICT_THEATER' WHERE BuildingType='BUI
 
 UPDATE Buildings SET Housing=0 WHERE BuildingType='BUILDING_TEMPLE_ARTEMIS';
 UPDATE Building_YieldChanges SET YieldChange=6 WHERE BuildingType='BUILDING_TEMPLE_ARTEMIS' AND YieldType='YIELD_FOOD';
+
+INSERT INTO Building_ValidTerrains(BuildingType, TerrainType) VALUES
+		('BUILDING_TERRACOTTA_ARMY', 'TERRAIN_TUNDRA'),
+		('BUILDING_TERRACOTTA_ARMY', 'TERRAIN_SNOW'),
+		('BUILDING_TERRACOTTA_ARMY', 'TERRAIN_DESERT');
 
 DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_TORRE_DE_BELEM' AND ModifierId='TORREDEBELEM_TRADE_GOLD_LUXURIES';
 INSERT INTO BuildingModifiers(BuildingType, ModifierId) VALUES

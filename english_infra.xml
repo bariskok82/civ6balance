@@ -541,7 +541,7 @@
 			<Text>+100% [ICON_Favor] Diplomatic Favor per turn from being the Suzerain of a City-State. Must be built adjacent to River.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="en_US">
-			<Text>+20% [ICON_Science] Science in this city, and awards 2 random technologies when completed. Must be built on Grassland or Plains without Hills adjacent to Campus district with University building.</Text>
+			<Text>+20% [ICON_Science] Science in this city, and awards 2 random technologies when completed. Must be built on flat land adjacent to Campus district with University building.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" Language="en_US">
 			<Text>This wonder acts as Canal district, and 1 or 2 adjacent Canal districts are also constructed. Provides +5 [ICON_Gold] Gold to all cities that has Canal district built adjacent to City Center. Must be built on flat land where this wonder and the adjacent Canal districts can legally connect two bodies of water or a body of water to City Center.</Text>
@@ -580,7 +580,7 @@
 			<Text>Each Camp, Pasture, and Plantation within 4 tiles provides +1 [ICON_AMENITIES] Amenity. Must be built adjacent to Camp.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="en_US">
-			<Text>All current units gain a promotion level when completed. All Archaeologists can enter foreign territory without Open Borders. Must be built on Grassland or Plains without Hills adjacent to Encampment district with Barracks or Stable building.</Text>
+			<Text>All current units gain a promotion level when completed. All Archaeologists can enter foreign territory without Open Borders. Must be built on flat land adjacent to Encampment district with Barracks or Stable building.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_Gold] Gold on Breathtaking tiles in your empire. All founded cities not on your [ICON_Capital] Capital's continent receive a City Center building with the lowest cost when completed. Must be built on Coast adjacent to land and Harbor district.</Text>
