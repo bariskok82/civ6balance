@@ -32,6 +32,7 @@ INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VA
 		('IMPROVEMENT_OFFSHORE_WIND_FARM',	'YIELD_SCIENCE',		1),
 		('IMPROVEMENT_SOLAR_FARM',			'YIELD_SCIENCE',		1);
 
+INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VALUES ('IMPROVEMENT_SEASTEAD', 'YIELD_GOLD', 0);
 INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement) VALUES
 		('JNR_Seasteads_OffshoreWind_Gold', 'Placeholder', 'YIELD_GOLD', 1,	1, 'IMPROVEMENT_OFFSHORE_WIND_FARM');
 INSERT INTO Improvement_Adjacencies(ImprovementType, YieldChangeId) VALUES
