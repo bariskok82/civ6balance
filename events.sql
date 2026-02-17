@@ -23,8 +23,6 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 	('INCREASES_TRADE_TO_GOLD_OTHER', 'Amount', 4);
 INSERT INTO ResolutionEffects(ResolutionEffectId, ResolutionType, WhichEffect, ModifierId) VALUES
 	(22, 'WC_RES_TRADE_TREATY', 1, 'APPLY_INCREASES_TRADE_TO_GOLD_TO_OTHER');
-	
-UPDATE Resolutions SET AITargetChooser = NULL WHERE ResolutionType != 'WC_RES_DIPLOVICTORY';
 
 INSERT INTO Requirements(RequirementId, RequirementType) VALUES
 	('REQUIRES_NOBEL_PRIZE_TARGET_BK', 'REQUIREMENT_REQUIREMENTSET_IS_MET'),
@@ -63,4 +61,3 @@ INSERT INTO ModifierStrings(ModifierId, Context, Text) VALUES
 INSERT INTO AllianceEffects(AllianceType, LevelRequirement, ModifierID) VALUES
 	('ALLIANCE_ECONOMIC', 2, 'ALLIANCE_ENTERTAINMENT_BK'),
 	('ALLIANCE_ECONOMIC', 3, 'ALLIANCE_ENVOY_POINTS_BK');
-

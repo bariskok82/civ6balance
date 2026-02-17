@@ -30,19 +30,6 @@ UPDATE ModifierArguments SET Value='3' WHERE ModifierId='DEMOCRACY_TRADEROUTEPRO
 UPDATE Government_SlotCounts SET NumSlots=3 WHERE GovernmentType='GOVERNMENT_MERCHANT_REPUBLIC' AND GovernmentSlotType='SLOT_ECONOMIC';
 UPDATE Government_SlotCounts SET NumSlots=1 WHERE GovernmentType='GOVERNMENT_MERCHANT_REPUBLIC' AND GovernmentSlotType='SLOT_DIPLOMATIC';
 
-UPDATE Governments SET OtherGovernmentIntolerance = '-3' WHERE GovernmentType='GOVERNMENT_AUTOCRACY';
-UPDATE Governments SET OtherGovernmentIntolerance = '-3' WHERE GovernmentType='GOVERNMENT_OLIGARCHY';
-UPDATE Governments SET OtherGovernmentIntolerance = '-3' WHERE GovernmentType='GOVERNMENT_CLASSICAL_REPUBLIC';
-UPDATE Governments SET OtherGovernmentIntolerance = '-5' WHERE GovernmentType='GOVERNMENT_MONARCHY';
-UPDATE Governments SET OtherGovernmentIntolerance = '-5' WHERE GovernmentType='GOVERNMENT_THEOCRACY';
-UPDATE Governments SET OtherGovernmentIntolerance = '-5' WHERE GovernmentType='GOVERNMENT_MERCHANT_REPUBLIC';
-UPDATE Governments SET OtherGovernmentIntolerance = '-8' WHERE GovernmentType='GOVERNMENT_FASCISM';
-UPDATE Governments SET OtherGovernmentIntolerance = '-8' WHERE GovernmentType='GOVERNMENT_COMMUNISM';
-UPDATE Governments SET OtherGovernmentIntolerance = '-8' WHERE GovernmentType='GOVERNMENT_DEMOCRACY';
-UPDATE Governments SET OtherGovernmentIntolerance = '-6' WHERE GovernmentType='GOVERNMENT_CORPORATE_LIBERTARIANISM';
-UPDATE Governments SET OtherGovernmentIntolerance = '-6' WHERE GovernmentType='GOVERNMENT_DIGITAL_DEMOCRACY';
-UPDATE Governments SET OtherGovernmentIntolerance = '-6' WHERE GovernmentType='GOVERNMENT_SYNTHETIC_TECHNOCRACY';
-
 
 -- === Loyalty Adjustments ===
 UPDATE ModifierArguments SET Value='3' WHERE ModifierId='LIMITANEI_GARRISONIDENTITY' AND Name='Amount';

@@ -1,16 +1,3 @@
-INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
-('AOE_LOYALTY_REQUIREMENTS_JNR',	'REQUIREMENTSET_TEST_ALL');
-INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
-('AOE_LOYALTY_REQUIREMENTS_JNR',	'AOE_REQUIRES_OWNER_ADJACENCY');
-INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId, SubjectStackLimit) VALUES
-('GREAT_PERSON_LOYALTY_AOE_JNR',	'MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER',			'AOE_LOYALTY_REQUIREMENTS_JNR',		1),
-('JNR_GREAT_GENERAL_LOYALTY',		'MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN',	NULL,								NULL);
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
-('GREAT_PERSON_LOYALTY_AOE_JNR',	'ModifierId',		'JNR_GREAT_GENERAL_LOYALTY'),
-('JNR_GREAT_GENERAL_LOYALTY',		'Amount',			6);
-INSERT INTO GreatPersonIndividualBirthModifiers(GreatPersonIndividualType,	ModifierId)
-SELECT GreatPersonIndividualType, 'GREAT_PERSON_LOYALTY_AOE_JNR' FROM GreatPersonIndividuals WHERE GreatPersonClassType='GREAT_PERSON_CLASS_GENERAL' OR GreatPersonClassType='GREAT_PERSON_CLASS_ADMIRAL';
-
 UPDATE GreatWorks SET Tourism='2' WHERE GreatWorkObjectType='GREATWORKOBJECT_WRITING';
 UPDATE GreatWorks SET Tourism='3' WHERE GreatWorkObjectType='GREATWORKOBJECT_RELIGIOUS';
 UPDATE GreatWorks SET Tourism='3' WHERE GreatWorkObjectType='GREATWORKOBJECT_SCULPTURE';
@@ -31,8 +18,7 @@ UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT
 
 DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_CANTEMIR_3';
 DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_JOPLIN_3';
-UPDATE Building_GreatWorks SET NonUniquePersonYield=3, NonUniquePersonTourism=3 WHERE BuildingType='BUILDING_HERMITAGE';
-UPDATE Building_GreatWorks SET NonUniquePersonYield=3, NonUniquePersonTourism=3 WHERE BuildingType='BUILDING_GOV_CULTURE';
+UPDATE Building_GreatWorks SET NonUniquePersonYield=0, NonUniquePersonTourism=0;
 
 INSERT INTO TechnologyModifiers(TechnologyType, ModifierId) VALUES
 ('TECH_PRINTING', 'PRINTING_BOOST_WRITING_CULTURE_BK');

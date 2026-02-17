@@ -97,27 +97,21 @@
 		</Replace>
 		
 		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="en_US">
-			<Text>A district that provides extra fresh water from adjacent water source. Cities with existing fresh water get +2 [ICON_Housing] Housing and other cities get +1 [ICON_Housing] Housing, in addition to full [ICON_Housing] Housing from fresh water. +1 [ICON_Amenities] Amenity if adjacent to Geothermal Fissure. Prevents [ICON_Food] Food loss during Drought.</Text>
+			<Text>A district that provides extra fresh water from adjacent water source. Cities with existing fresh water get +2 [ICON_Housing] Housing and other cities get full [ICON_Housing] Housing from fresh water. +1 [ICON_Amenities] Amenity if adjacent to Geothermal Fissure. Prevents [ICON_Food] Food loss during Drought.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="en_US">
-			<Text>A district built on Floodplains to improve the comfort of living along this river. Cities get full [ICON_Housing] Housing from fresh water if built adjacent to City Center. Prevents damage from flooding of this river (though yields from flooding drop by 50%). Prevents [ICON_Food] Food loss during Drought.</Text>
+			<Text>A district built on Floodplains to improve the comfort of living along this river. Prevents damage from flooding of this river (though yields from flooding drop by 50%). Prevents [ICON_Food] Food loss during Drought.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="en_US">
-			<Text>A district built on flat land to connect two bodies of water or a body of water to City Center. Cities get full [ICON_Housing] Housing from fresh water if built adjacent to City Center. Prevents [ICON_Food] Food loss during Drought.</Text>
+			<Text>A district built on flat land to connect two bodies of water or a body of water to City Center.</Text>
 		</Replace>
 		
 		<!-- buildings -->
 		<Replace Tag="LOC_BUILDING_MONUMENT_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>Provides +2 Loyalty per turn in this city. If this city has maximum Loyalty, also provides extra +1 [ICON_Culture] Culture.</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Housing] Housing and +1 [ICON_Food] Food if you own [ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_MAIZE] Maize, [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_SHEEP] Sheep, or [ICON_RESOURCE_CATTLE] Cattle.</Text>
-		</Replace>
 		<Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Food] Food on [ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_MAIZE] Maize, [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_CATTLE] Cattle for this city. Must be built in a city adjacent to River.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity if the city has Aqueduct, Dam, or Canal district built adjacent to City Center.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FLOOD_BARRIER_DESCRIPTION" Language="en_US">
 			<Text>Protects Coastal Lowland in this city from flooding. Flooded tiles can be fully repaired, but submerged tiles are never recoverable. Must be built in a city with Coastal Lowland.</Text>
@@ -544,7 +538,7 @@
 			<Text>+20% [ICON_Science] Science in this city, and awards 2 random technologies when completed. Must be built on flat land adjacent to Campus district with University building.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" Language="en_US">
-			<Text>This wonder acts as Canal district, and 1 or 2 adjacent Canal districts are also constructed. Provides +5 [ICON_Gold] Gold to all cities that has Canal district built adjacent to City Center. Must be built on flat land where this wonder and the adjacent Canal districts can legally connect two bodies of water or a body of water to City Center.</Text>
+			<Text>This wonder acts as Canal district, and 1 or 2 adjacent Canal districts are also constructed. Must be built on flat land where this wonder and the adjacent Canal districts can legally connect two bodies of water or a body of water to City Center.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Food] Food and +1 [ICON_Production] Production on Desert without Floodplains in your empire. Extra +1 [ICON_Food] Food and +2 [ICON_Gold] Gold on Desert without Floodplains for this city. Must be built on Desert without Hills.</Text>

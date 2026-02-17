@@ -23,9 +23,6 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, +2 [ICON_Gold] Gold, and +2 [ICON_Faith] Faith from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art. +50% [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, and [ICON_GreatMerchant] Great Merchant points. Palace has slots for 5 Great Works.</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION" Language="en_US">
-			<Text>Rainforest provide standard adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts, and adjacent tiles does not suffer -1 Appeal.</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION" Language="en_US">
 			<Text>Can declare War of Liberation after Defensive Tactics Civic. Declaring War of Liberation grants +50% [ICON_Production] Production in all cities and +2 [ICON_Movement] Movement to all units for 10 turns.</Text>
 		</Replace>
@@ -34,50 +31,6 @@
 		</Replace>
 		
 		<!-- great people -->
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Classical and Medieval era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Medieval and Renaissance era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Renaissance and Industrial era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Industrial and Modern era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Modern and Atomic era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Atomic and Information era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Information era land units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Classical and Medieval era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Medieval and Renaissance era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Renaissance and Industrial era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Industrial and Modern era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Modern and Atomic era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Atomic and Information era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Information era naval units within 2 tiles.[NEWLINE]+6 Loyalty per turn to cities within 2 tiles.</Text>
-		</Replace>
-		
 		<Replace Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE" Language="en_US">
 			<Text>Grants +3 Loyalty per turn for this city.</Text>
 		</Replace>
@@ -609,7 +562,7 @@
 			<Text>Grants the ability to construct an additional Spy. Allows forming two identical units into a Corps or Fleet.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="en_US">
-			<Text>Can build National Parks. Allows Builders to plant Woods (second-growth). +1 Appeal to original Woods in your empire (old-growth). +1 Appeal to tiles adjacent to Rainforest and Marsh in your empire. Receive [ICON_TOURISM] Tourism from Walls.</Text>
+			<Text>Can build National Parks. Allows Builders to plant Woods (second-growth). +1 Appeal to original Woods in your empire (old-growth). Receive [ICON_TOURISM] Tourism from Walls.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MOBILIZATION_DESCRIPTION" Language="en_US">
 			<Text>Allows forming three identical units into an Army or Armada.</Text>

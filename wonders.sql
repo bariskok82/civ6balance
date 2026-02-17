@@ -128,18 +128,6 @@ INSERT INTO Building_ValidTerrains(BuildingType, TerrainType) VALUES
 		('BUILDING_OXFORD_UNIVERSITY', 'TERRAIN_SNOW'),
 		('BUILDING_OXFORD_UNIVERSITY', 'TERRAIN_DESERT');
 
-INSERT INTO BuildingModifiers(BuildingType, ModifierId) VALUES
-		('BUILDING_PANAMA_CANAL', 'PANAMA_CANAL_GOLD_BK');
-INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES
-		('PANAMA_CANAL_GOLD_BK', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE', 'CANAL_ADJACENT_BK');
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
-		('PANAMA_CANAL_GOLD_BK', 'YieldType', 'YIELD_GOLD'),
-		('PANAMA_CANAL_GOLD_BK', 'Amount', 5);
-INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
-		('CANAL_ADJACENT_BK', 'REQUIREMENTSET_TEST_ANY');
-INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
-		('CANAL_ADJACENT_BK', 'JNR_REQUIRES_CANAL_ADJACENT'),
-		('CANAL_ADJACENT_BK', 'REQUIRES_PANAMA_ADJACENT_BK');
 INSERT INTO DistrictModifiers(DistrictType, ModifierId) VALUES			
 		('DISTRICT_INDUSTRIAL_ZONE', 'PANAMA_PRODUCTION_BK'),
 		('DISTRICT_HANSA', 'PANAMA_PRODUCTION_BK'),
@@ -153,6 +141,12 @@ INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
 		('PANAMA_ADJACENT_BK', 'REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
 		('PANAMA_ADJACENT_BK', 'REQUIRES_PANAMA_ADJACENT_BK');
+INSERT INTO Requirements(RequirementId, RequirementType, Inverse) VALUES
+		('REQUIRES_PANAMA_ADJACENT_BK',						'REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES',		0);
+INSERT INTO RequirementArguments(RequirementId, Name, Value) VALUES
+		('REQUIRES_PANAMA_ADJACENT_BK',						'BuildingType',					'BUILDING_PANAMA_CANAL'),
+		('REQUIRES_PANAMA_ADJACENT_BK',						'MinRange',						1),
+		('REQUIRES_PANAMA_ADJACENT_BK',						'MaxRange',						1);
 		
 UPDATE ModifierArguments SET Value='YIELD_FOOD,YIELD_GOLD' WHERE ModifierId='PETRA_YIELD_MODIFIER' AND Name='YieldType';
 UPDATE ModifierArguments SET Value='1,2' WHERE ModifierId='PETRA_YIELD_MODIFIER' AND Name='Amount';

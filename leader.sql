@@ -15,7 +15,6 @@ INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VA
 	('IMPROVEMENT_SPHINX', 'YIELD_GOLD', 0);
 INSERT INTO Improvement_BonusYieldChanges(Id, ImprovementType, YieldType, BonusYieldChange, PrereqCivic) VALUES
 	(150, 'IMPROVEMENT_SPHINX', 'YIELD_GOLD', 2, 'CIVIC_NATURAL_HISTORY');
-UPDATE ModifierArguments SET VALUE=1 WHERE ModifierId='CLEOPATRA_FLOODPLAINS_APPEAL' AND Name='Amount';
 
 UPDATE Improvement_YieldChanges SET YieldChange=1 WHERE ImprovementType='IMPROVEMENT_PAIRIDAEZA' AND YieldType='YIELD_GOLD';
 UPDATE Adjacency_YieldChanges SET YieldChange=2 WHERE ID='Pairidaeza_CommercialHubAdjacency';
@@ -72,7 +71,6 @@ UPDATE ModifierArguments SET Value=2 WHERE ModifierId='TRAIT_GREAT_WORK_FAITH_RE
 UPDATE ModifierArguments SET Value=2 WHERE ModifierId='TRAIT_GREAT_WORK_GOLD_RELIC' AND Name='YieldChange';
 
 UPDATE Units SET Combat=75, RangedCombat=85, AntiAirCombat=90 WHERE UnitType='UNIT_BRAZILIAN_MINAS_GERAES';
-UPDATE ModifierArguments SET Value=1 WHERE ModifierId='TRAIT_AMAZON_RAINFOREST_EXTRA_APPEAL' AND Name='Amount';
 
 UPDATE ModifierArguments SET Value=1 WHERE ModifierId='MISSION_NEWCONTINENT_FAITH' AND Name='Amount';
 

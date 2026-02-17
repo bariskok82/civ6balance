@@ -1,5 +1,4 @@
 UPDATE Modifiers SET SubjectRequirementSetId = null WHERE ModifierId='DIPLOMATIC_QUARTER_AWARD_ONE_INFLUENCE_TOKEN';
-UPDATE Districts_XP2 SET PreventsDrought=1 WHERE DistrictType='DISTRICT_CANAL';
 
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 30, Cost = 60 WHERE DistrictType='DISTRICT_INDUSTRIAL_ZONE';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 20, Cost = 40 WHERE DistrictType='DISTRICT_HANSA';
@@ -165,21 +164,4 @@ INSERT INTO District_TradeRouteYields(DistrictType, YieldType, YieldChangeAsOrig
 
 INSERT INTO District_TradeRouteYields(DistrictType, YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination) VALUES
 		('DISTRICT_AERODROME',		'YIELD_PRODUCTION',		0,						1,									1),
-		('DISTRICT_AQUEDUCT',		'YIELD_FOOD',			0,						1,									1),
-		('DISTRICT_AQUEDUCT',		'YIELD_PRODUCTION',		0,						1,									1),
-		('DISTRICT_BATH',			'YIELD_FOOD',			0,						1,									1),
-		('DISTRICT_BATH',			'YIELD_PRODUCTION',		0,						1,									1),
-		('DISTRICT_DAM',			'YIELD_FOOD',			0,						1,									1),
-		('DISTRICT_DAM',			'YIELD_PRODUCTION',		0,						1,									1),
-		('DISTRICT_CANAL',			'YIELD_FOOD',			0,						1,									1),
-		('DISTRICT_CANAL',			'YIELD_PRODUCTION',		0,						1,									1),
-		('DISTRICT_MBANZA',			'YIELD_FOOD',			0,						1,									0),
-		('DISTRICT_NEIGHBORHOOD',	'YIELD_FOOD',			0,						1,									0),
-		('DISTRICT_MBANZA',			'YIELD_PRODUCTION',		0,						1,									0),
-		('DISTRICT_NEIGHBORHOOD',	'YIELD_PRODUCTION',		0,						1,									0),
-		('DISTRICT_MBANZA',			'YIELD_GOLD',			0,						0,									3),
-		('DISTRICT_NEIGHBORHOOD',	'YIELD_GOLD',			0,						0,									3),
-		('DISTRICT_PRESERVE',		'YIELD_FOOD',			0,						1,									0),
-		('DISTRICT_PRESERVE',		'YIELD_CULTURE',		0,						0,									1),
-		('DISTRICT_SPACEPORT',		'YIELD_FOOD',			0,						1,									0),
-		('DISTRICT_SPACEPORT',		'YIELD_SCIENCE',		0,						0,									1);
+		('DISTRICT_PRESERVE',		'YIELD_FOOD',			0,						1,									1);

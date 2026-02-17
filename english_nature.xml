@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>		
-		<!-- climate -->
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_NONE_NAME" Language="en_US">
-			<Text>None</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_MINIMAL_NAME" Language="en_US">
-			<Text>Minimal</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_LIGHT_NAME" Language="en_US">
-			<Text>Light</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_EXPECTED_NAME" Language="en_US">
-			<Text>Expected</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_SIGNIFICANT_NAME" Language="en_US">
-			<Text>Significant</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_HEAVY_NAME" Language="en_US">
-			<Text>Heavy</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_EXTREME_NAME" Language="en_US">
-			<Text>Extreme</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_TOTAL_NAME" Language="en_US">
-			<Text>Total</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_NONE_DESCRIPTION" Language="en_US">
-			<Text>No overall decline of Marsh, Woods, and Rainforest on the planet is recorded.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_MINIMAL_DESCRIPTION" Language="en_US">
-			<Text>Removal of Marsh, Woods, and Rainforest from the planet has been minimal to date.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_LIGHT_DESCRIPTION" Language="en_US">
-			<Text>Removal of Marsh, Woods, and Rainforest from the planet has been light to date.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_EXPECTED_DESCRIPTION" Language="en_US">
-			<Text>Removal of Marsh, Woods, and Rainforest from the planet has proceeded at the expected pace.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_SIGNIFICANT_DESCRIPTION" Language="en_US">
-			<Text>Removal of Marsh, Woods, and Rainforest from the planet has been considerable to date.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_HEAVY_DESCRIPTION" Language="en_US">
-			<Text>Removal of Marsh, Woods, and Rainforest from the planet has been extensive.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_EXTREME_DESCRIPTION" Language="en_US">
-			<Text>Removal of Marsh, Woods, and Rainforest from the planet has reached extreme degree.</Text>
-		</Replace>
-		<Replace Tag="LOC_DEFORESTATION_JNR_CB_TOTAL_DESCRIPTION" Language="en_US">
-			<Text>Almost all of Marsh, Woods, and Rainforest from the planet has been destroyed.</Text>
-		</Replace>
-		
 		<!-- natural wonders -->
 		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_DESCRIPTION" Language="en_US">
 			<Text>Three tile natural wonder. It provides +6 [ICON_Science] Science, and +3 [ICON_Science] Science to adjacent tiles. Units that enter it are teleported to an ocean far away, but naval units that do so earn the ability 'Mysterious Currents' (+1 [ICON_Movement] Movement).</Text>

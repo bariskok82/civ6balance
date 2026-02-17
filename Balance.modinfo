@@ -7,7 +7,7 @@
 		<Version>2</Version>
 		<SpecialThanks>Everyone</SpecialThanks>
 		<CompatibleVersions>2.0</CompatibleVersions>
-		<AffectsSavedGames>0</AffectsSavedGames>
+		<AffectsSavedGames>1</AffectsSavedGames>
 	</Properties>
 	<Dependencies>
     	<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
@@ -56,10 +56,7 @@
 			<File>citystates.sql</File>
 			<File>greatpeople.sql</File>
 			<File>districts.sql</File>
-			<File>districts_appeal.sql</File>
-			<File>districts_freshwater.sql</File>
 			<File>specialists.sql</File>
-			<File>climate.sql</File>
 			<File>routes.sql</File>
 			<File>speed.sql</File>
 			<File>buildings.sql</File>
@@ -81,9 +78,6 @@
 				<LuaReplace>satellites_popup.lua</LuaReplace>
 			</Properties>
 		</ReplaceUIScript>
-		<AddGameplayScripts id="Lua">
-			<File>goodyhut_extra.lua</File>
-		</AddGameplayScripts>
 	</InGameActions>
 
 	<!-- defines file dependencies -->
@@ -99,10 +93,7 @@
 		<File>citystates.sql</File>
 		<File>greatpeople.sql</File>
 		<File>districts.sql</File>
-		<File>districts_appeal.sql</File>
-		<File>districts_freshwater.sql</File>
 		<File>specialists.sql</File>
-		<File>climate.sql</File>
 		<File>routes.sql</File>
 		<File>speed.sql</File>
 		<File>buildings.sql</File>
@@ -110,7 +101,6 @@
 		<File>energy.sql</File>
 		<File>naturalwonders.sql</File>
 		<File>goodyhut.sql</File>
-		<File>goodyhut_extra.lua</File>
 		<File>units.sql</File>
 		<File>satellites.sql</File>
 		<File>satellites_popup.lua</File>

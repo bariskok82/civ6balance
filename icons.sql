@@ -11,4 +11,4 @@ INSERT INTO IconDefinitions(Name, Atlas, 'Index') VALUES
 		('ICON_PROJECT_JNR_SATELLITE_WEATHER',							'ICON_ATLAS_PROJECTS',			1),
 		('ICON_PROJECT_JNR_SATELLITE_ECOLOGY',							'ICON_ATLAS_PROJECTS',			1);
 
-INSERT INTO IconDefinitions(Name, Atlas, 'Index') SELECT 'ICON_'||ProjectType, 'ICON_ATLAS_PROJECTS', 1 FROM Projects WHERE (ProjectType LIKE 'PROJECT_JNR_SATELLITE_%');	
+INSERT INTO IconDefinitions(Name, Atlas, 'Index') SELECT 'ICON_'||ProjectType, 'ICON_ATLAS_PROJECTS', 1 FROM Projects WHERE (ProjectType LIKE 'PROJECT_JNR_SATELLITE_%');
