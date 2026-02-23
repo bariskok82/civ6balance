@@ -50,7 +50,7 @@
 		</UpdateText>
 		
 		<UpdateIcons id="icon_updates">
-			<File>icons.sql</File>
+			<File>icon.sql</File>
 		</UpdateIcons>
 
 		<UpdateDatabase id="data_updates">
@@ -60,16 +60,19 @@
 			<File>base.sql</File>
 			<File>policies.sql</File>
 			<File>citystates.sql</File>
-			<File>greatpeople.sql</File>
-			<File>greatworks.sql</File>
-			<File>districts.sql</File>
+			<File>greatperson.sql</File>
+			<File>greatwork.sql</File>
+			<File>district.sql</File>
 			<File>district_cost.sql</File>
-			<File>specialists.sql</File>
-			<File>routes.sql</File>
+			<File>district_adjacency.sql</File>
+			<File>district_trade.sql</File>
+			<File>specialist.sql</File>
+			<File>route.sql</File>
 			<File>plunder.sql</File>
 			<File>technology_civic.sql</File>
-			<File>buildings.sql</File>
-			<File>improvements.sql</File>
+			<File>building.sql</File>
+			<File>improvement.sql</File>
+			<File>resource.sql</File>
 			<File>energy.sql</File>
 			<File>naturalwonders.sql</File>
 			<File>goodyhut.sql</File>
@@ -99,20 +102,23 @@
 		<File>localization/english_diplo.xml</File>
 		<File>localization/english_nature.xml</File>
 		<File>localization/english_other.xml</File>
-		<File>icons.sql</File>
+		<File>icon.sql</File>
 		<File>base.sql</File>
 		<File>policies.sql</File>
 		<File>citystates.sql</File>
-		<File>greatpeople.sql</File>
-		<File>greatworks.sql</File>
-		<File>districts.sql</File>
+		<File>greatperson.sql</File>
+		<File>greatwork.sql</File>
+		<File>district.sql</File>
 		<File>district_cost.sql</File>
-		<File>specialists.sql</File>
-		<File>routes.sql</File>
+		<File>district_adjacency.sql</File>
+		<File>district_trade.sql</File>
+		<File>specialist.sql</File>
+		<File>route.sql</File>
 		<File>plunder.sql</File>
 		<File>technology_civic.sql</File>
-		<File>buildings.sql</File>
-		<File>improvements.sql</File>
+		<File>building.sql</File>
+		<File>improvement.sql</File>
+		<File>resource.sql</File>
 		<File>energy.sql</File>
 		<File>naturalwonders.sql</File>
 		<File>goodyhut.sql</File>

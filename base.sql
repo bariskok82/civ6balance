@@ -1,8 +1,3 @@
-
---==============================================================
---******				    O T H E R					  ******
---==============================================================
-
 UPDATE GlobalParameters SET Value='2' WHERE Name='EXPERIENCE_BARB_SOFT_CAP';
 UPDATE GlobalParameters SET Value='4' WHERE Name='EXPERIENCE_MAX_BARB_LEVEL';
 UPDATE GlobalParameters SET Value='8' WHERE Name='EXPERIENCE_MAX_LEVEL';
