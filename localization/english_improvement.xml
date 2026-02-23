@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- improvements -->
+		<Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Farms.[NEWLINE][NEWLINE]Must be built on Grassland or Plains.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Mines.[NEWLINE][NEWLINE]Must be built on Hills or valid resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Quarries.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Fishing Boats.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Pastures.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CAMP_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Camps.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Lumber Mills.[NEWLINE][NEWLINE]Must be built on Woods or Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Oil Wells.[NEWLINE][NEWLINE]Must be built on land with [ICON_RESOURCE_OIL] Oil.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Offshore Oil Rigs.[NEWLINE][NEWLINE]Must be built on Coast or Lake with [ICON_RESOURCE_OIL] Oil.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Military Engineer ability to construct Forts.[NEWLINE][NEWLINE]Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Production] Production if the city has a garrisoned unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Military Engineer ability to construct Airstrips.[NEWLINE][NEWLINE]Can support 2 air units.[NEWLINE]Must be built on flat land.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Military Engineer ability to construct Missile Siloes.[NEWLINE][NEWLINE]Acts as a launch site for Nuclear and Thermonuclear Devices.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Fisheries.[NEWLINE][NEWLINE]+1 [ICON_Food] Food for every adjacent sea resource.[NEWLINE]Must be built on Coast.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct City Parks.[NEWLINE][NEWLINE]+1 [ICON_Amenities] Amenity if adjacent to water.[NEWLINE]Cannot be built adjacent to another City Park.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Ski Resorts.[NEWLINE][NEWLINE]Provides +4 [ICON_TOURISM] Tourism.[NEWLINE]Must be built on Mountain (Grassland, Plains, Tundra, or Snow). Cannot be built adjacent to another Ski Resort. Cannot be pillaged or removed.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_Gold] Gold and [ICON_Tourism] Tourism equal to Appeal.[NEWLINE]Must be built on Grassland, Plains, or Desert without Hills adjacent to Coast. Minimum Appeal of Breathtaking.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Military Engineer ability to construct a Mountain Tunnel.[NEWLINE][NEWLINE]Can transport land units at cost of 2 [ICON_Movement] Movement.[NEWLINE]Must be built on Mountain. Cannot be pillaged or removed.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Wind Farms.[NEWLINE][NEWLINE]Provides +1 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built adjacent to Coast.[NEWLINE]Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Offshore Wind Farms.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built on Ocean.[NEWLINE]Must be built on Coast, Lake or Ocean.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Solar Farms.[NEWLINE][NEWLINE]Provides +1 [ICON_Power] Power per turn from renewable solar sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built on Desert.[NEWLINE]Must be built on flat land.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Geothermal Plants.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable geothermal sources.[NEWLINE]Extra +2 [ICON_Power] Power per turn, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold if built on Geothermal Fissure.[NEWLINE]Must be built on Geothermal Fissure or Volcanic Soil.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Seasteads.[NEWLINE][NEWLINE]+1 [ICON_Production] Production for every adjacent Fishing Boats. Fishing Boats receive +1 [ICON_Production] Production for every adjacent Seastead.[NEWLINE]+1 [ICON_Gold] Gold for every adjacent Offshore Wind Farm.[NEWLINE]+1 [ICON_Culture] Culture and [ICON_Tourism] Tourism for every adjacent Reef.[NEWLINE]Must be built on Coast, Lake or Ocean. Cannot be built adjacent to another Seastead.</Text>
+		</Replace>
+		
+		<!-- city-state improvements -->
+		<Replace Tag="LOC_IMPROVEMENT_BATEY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Bateys.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture for every adjacent Bonus resource and Entertainment Complex district (increased to +2 [Icon_Culture] Culture after Exploration Civic).[NEWLINE]Must be built on flat land. Cannot be built adjacent to another Batey.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOAI_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Moais.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture for every 2 adjacent Moai (increased to +1 [Icon_Culture] Culture for every adjacent Moai after Medieval Faires Civic).[NEWLINE]+2 [ICON_Culture] Culture if on or adjacent to Volcanic Soil.[NEWLINE]+1 [ICON_Culture] Culture if adjacent to Coast or Lake.[NEWLINE]Must be built on Plains, Grassland, or Volcanic Soil. Cannot be built adjacent to Woods or Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ALCAZAR_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Alc찼zars.[NEWLINE][NEWLINE]Provides [ICON_SCIENCE] Science equal to 50% of Appeal.[NEWLINE]Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Production] Production if the city has a garrisoned unit.[NEWLINE]Cannot be built adjacent to another Alc찼zar.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Monasteries.[NEWLINE][NEWLINE]Increases healing by 15 points for religious unit.[NEWLINE]+1 [ICON_FAITH] Faith for every 2 adjacent districts.[NEWLINE]+1 [ICON_HOUSING] Housing after Colonialism Civic.[NEWLINE]Cannot be built adjacent to another Monastery.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Colossal Heads.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith for every 2 adjacent Rainforest (increased to +1 [ICON_Faith] Faith for every adjacent Rainforest after Humanism Civic).[NEWLINE]+1 [ICON_Faith] Faith for every 2 adjacent Woods (increased to +1 [ICON_Faith] Faith for every adjacent Woods after Humanism Civic).[NEWLINE][ICON_TOURISM] Tourism equal to [ICON_FAITH] Faith output after Flight Technology.[NEWLINE]Cannot be built on Snow.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Nazca Lines.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith to adjacent tiles. +1 [ICON_Faith] Faith to adjacent tiles with resource.[NEWLINE]+1 [ICON_FOOD] Food to adjacent Desert after Civil Service Civic.[NEWLINE]+1 [ICON_PRODUCTION] Production to adjacent flat land after Mass Production Technology.[NEWLINE]Must be built on Desert without Hills. Cannot be worked.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Mahaviharas.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith for every adjacent Holy Site district.[NEWLINE]+1 [ICON_Science] Science for every adjacent Campus district (increased to +2 [Icon_Science] Science for every adjacent Campus district after Scientific Theory Technology).[NEWLINE]Awards 1 random technology when built for the first time.[NEWLINE]Must be built on flat land. Cannot be built adjacent to another Mahavihara.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Cahokia Mounds.[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] Amenity for cities with Cahokia Mound.[NEWLINE]+1 [ICON_AMENITIES] Amenity for cities with 2 Cahokia Mounds after Natural History Civic.[NEWLINE]+1 [ICON_FOOD] Food for every 2 adjacent district after Feudalism Civic (increased to +1 [ICON_FOOD] Food for every adjacent district after Replaceable Parts Technology).[NEWLINE]+1 [ICON_HOUSING] Housing after Cultural Heritage Civic.[NEWLINE]Cannot be built adjacent to another Cahokia Mound.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Trading Domes.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold for every adjacent Luxury resource.[NEWLINE]International [ICON_TradeRoute] Trade Routes provide +1 [ICON_GOLD] Gold for every Trading Dome in the origin city.[NEWLINE]Cannot be built adjacent to another Trading Dome.</Text>
+		</Replace>
+		
+		<!-- unique improvements -->
+		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Ch창teaus.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture for every adjacent wonder (increased to +2 [Icon_Culture] Culture for every adjacent wonder after Flight Technology).[NEWLINE]+2 [ICON_Gold] Gold if adjacent to River.[NEWLINE]Must be built adjacent to Bonus or Luxury resource. Cannot be built adjacent to another Ch창teau.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CHEMAMULL_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Chemamulls.[NEWLINE][NEWLINE]Provides [ICON_CULTURE] Culture equal to 75% of Appeal.[NEWLINE]Minimum Appeal of Breathtaking.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Nau ability to construct Feitorias.[NEWLINE][NEWLINE]Trade routes sent to this city from Portugal provide +4 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.[NEWLINE]Must be built on Coast or Lake adjacent to Land and Bonus or Luxury resource in territory belonging to other civilizations or City-States that you have Open Borders with. Cannot be built adjacent to another Feitoria. Cannot be removed.</Text>
+		</Replace>	
+		<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Golf Courses.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture if adjacent to City Center. +1 [ICON_CULTURE] Culture if adjacent to Entertainment Complex district.[NEWLINE]+1 [ICON_HOUSING] Housing after Globalization Civic.[NEWLINE]Cannot be built on Desert. One per city and cannot be swapped.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Great Walls.[NEWLINE][NEWLINE]+2 [Icon_Gold] Gold for every adjacent Great Wall.[NEWLINE]+2 [Icon_Culture] Culture for every adjacent Great Wall after Castles Technology.[NEWLINE]Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Production] Production if the city has a garrisoned unit.[NEWLINE]Must be built in line along border of your empire. Can only be pillaged (never destroyed) by natural disasters.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Haciendas.[NEWLINE][NEWLINE]+1 [ICON_Food] Food for every 2 adjacent Plantation (increased to +1 [ICON_Food] Food for every adjacent Plantation after Replaceable Parts Technology).[NEWLINE]Plantations and Haciendas receive +1 [ICON_Production] Production for every 2 adjacent Hacienda (increased to +1 [ICON_Production] Production for every adjacent Hacienda after Rapid Deployment Civic).[NEWLINE]Must be built on Grassland or Plains.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Ice Hockey Rinks.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent Tundra and Snow.[NEWLINE]+4 [ICON_CULTURE] Culture if adjacent to Stadium building.[NEWLINE]+2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production after Professional Sports Civic.[NEWLINE]Ski Resorts receive +1 [Icon_Gold] Gold for every Ice Hocky Rink.[NEWLINE]Must be built on Tundra or Snow. One per city and cannot be swapped.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Kampungs.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food for each adjacent Fishing Boats.[NEWLINE]+1 [ICON_HOUSING] Housing after Mass Production Technology.[NEWLINE]+1 [ICON_Production] Production after Civil Engineering Civic.[NEWLINE][ICON_TOURISM] Tourism equal to [ICON_Food] Food output after Flight Technology.[NEWLINE]Must be built on Coast or Lake adjacent to sea resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Kurgans.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith for every adjacent Pasture (increased to +2 [ICON_Faith] Faith for every adjacent Pasture after Stirrups Technology).[NEWLINE][ICON_TOURISM] Tourism equal to [ICON_FAITH] Faith output after Flight Technology.[NEWLINE]Cannot be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Mekewaps.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold if adjacent to Luxury resource.[NEWLINE]+1 [ICON_FOOD] Food for every 2 adjacent Bonus Resource (increased to +1 [ICON_FOOD] Food for every adjacent Bonus Resource after Conservation Civic).[NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_HOUSING] Housing after Civil Service Civic.[NEWLINE]+2 [ICON_GOLD] Gold for every adjacent Luxury resource after Cartography Technology.[NEWLINE]Must be built adjacent to Bonus or Luxury resource. Cannot be built adjacent to another Mekewap.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Missions.[NEWLINE][NEWLINE]+1 [ICON_FOod] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_Faith] Faith if on different continent than your [ICON_Capital] Capital.[NEWLINE]+1 [ICON_Science] Science for every adjacent Campus and Holy Site district.[NEWLINE]+2 [ICON_SCIENCE] Science after Cultural Heritage Civic.[NEWLINE]+2 Loyalty per turn for cities with Mission adjacent to City Center and on different continent than your [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Nubian Pyramids.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_PRODUCTION] Production if adjacent to City Center.[NEWLINE]+1 [ICON_Science] Science for every adjacent Campus district.[NEWLINE]+1 [ICON_Culture] Culture for every adjacent Theater Square district.[NEWLINE]+1 [ICON_Faith] Faith for every adjacent Holy Site district.[NEWLINE]+2 [ICON_Gold] Gold for every adjacent Commercial Hub district.[NEWLINE]+1 [ICON_Production] Production for every adjacent Industrial Zone district.[NEWLINE]Must be built on Desert.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Open-Air Museums.[NEWLINE][NEWLINE]+2 Loyalty per turn in this city.[NEWLINE]+2 [ICON_Culture] Culture and +2 [ICON_Tourism] Tourism for each type of terrain (Grassland, Plains, Desert, Tundra, and Snow) on which at least one Swedish city is settled.[NEWLINE]One per city and cannot be swapped.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Outback Stations.[NEWLINE][NEWLINE]+1 [ICON_Food] Food for every adjacent Pasture.[NEWLINE]+1 [ICON_PRODUCTION] Production for every adjacent Pasture after Stem Power Technology.[NEWLINE]+1 [ICON_PRODUCTION] Production for every 2 adjacent Outback Stations after Steam Power Technology.[NEWLINE]+1 [ICON_Food] Food for every 2 adjacent Outback Stations after Rapid Deployment Civic.[NEWLINE]Must be built on Grassland or Plains without Hills, or Desert.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Toa ability to construct P훮s.[NEWLINE][NEWLINE]Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Production] Production if the city has a garrisoned unit.[NEWLINE]Occupying M훮ori unit heals even if they just moved or attacked.[NEWLINE]Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Pairidaezas.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for every adjacent Holy Site and Theater Square district.[NEWLINE]+2 [ICON_GOLD] Gold for every adjacent City Center and Commercial Hub district.[NEWLINE]+1 [ICON_CULTURE] Culture after Diplomatic Service Civic.[NEWLINE]Cannot be built on Tundra or Snow. Cannot be built adjacent to another Pairidaeza.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Polders.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food for every adjacent Polder (increased to +2 [ICON_FOOD] Food for every adjacent Polder after Replaceable Parts Technology).[NEWLINE]+4 [ICON_GOLD] Gold after Civil Engineering Civic.[NEWLINE]+1 [ICON_Production] Production for every adjacent Polder after Replaceable Parts Technology.[NEWLINE]Increases [ICON_Movement] Movement Cost to 3.[NEWLINE]Must be built on Coast or Lake adjacent to 3 or more passable land tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Qhapaq 횗ans.[NEWLINE][NEWLINE]Can transport land units at cost of 2 [ICON_Movement] Movement.[NEWLINE]Must be built on Mountain. Cannot be pillaged or removed.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Rock-Hewn Churches.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith for every adjacent Mountain and Hills.[NEWLINE][ICON_TOURISM] Tourism equal to [ICON_FAITH] Faith output after Flight Technology.[NEWLINE]Must be built on Hills or Volcanic Soil. Cannot be built adjacent to another Rock-Hewn Church. Can only be pillaged (never destroyed) by natural disasters.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Roman Legion ability to construct Roman Forts.[NEWLINE][NEWLINE]Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Production] Production if the city has a garrisoned unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Sphinxes.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith if adjacent to wonder.[NEWLINE]+1 [ICON_CULTURE] Culture if on Floodplains.[NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold after Natural History Civic.[NEWLINE]Cannot be built on Snow. Cannot be built adjacent to another Sphinx.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Stepwells.[NEWLINE][NEWLINE]+1 [ICON_Food] Food if adjacent to Farm.[NEWLINE]+1 [ICON_Faith] Faith if adjacent to Holy Site district.[NEWLINE]+1 [ICON_Faith] Faith after Feudalism Civic.[NEWLINE]+1 [ICON_HOUSING] Housing after Sanitation Technology.[NEWLINE]+1 [ICON_Food] Food after Professional Sports Civic.[NEWLINE]Prevents [ICON_Food] Food loss during Drought.[NEWLINE]Cannot be built on Hills. Cannot be built adjacent to another Stepwell.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Terrace Farms.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food for every adjacent Mountain.[NEWLINE]+2 [ICON_PRODUCTION] Production for every adjacent Aqueduct district.[NEWLINE]+1 [ICON_PRODUCTION] Production if adjacent to Fresh Water and not Aqueduct district.[NEWLINE]+1 [ICON_FOOD] Food for every 2 adjacent Terrace Farm after Feudalism Civic (increased to +1 [ICON_FOOD] Food for every adjacent Terrace Farm after Replaceable Parts Technology).[NEWLINE]Must be built on Grassland Hills, Plains Hills, or Desert Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Ziggurats.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture if adjacent to River.[NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold after Natural History Civic.[NEWLINE]Cannot be built on Hills.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

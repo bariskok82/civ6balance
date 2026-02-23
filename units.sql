@@ -1,7 +1,5 @@
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_STEEL', ObsoleteCivic = NULL WHERE UnitType='UNIT_BATTERING_RAM';
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_STEEL', ObsoleteCivic = NULL WHERE UnitType='UNIT_SIEGE_TOWER';
-UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_SUPPLY_CONVOY' WHERE Unit='UNIT_BATTERING_RAM';
-UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_SUPPLY_CONVOY' WHERE Unit='UNIT_SIEGE_TOWER';
 
 UPDATE Units SET PrereqTech = 'TECH_MILITARY_TACTICS' WHERE UnitType='UNIT_SKIRMISHER';
 UPDATE Units SET PrereqTech = 'TECH_SQUARE_RIGGING', PrereqCivic=null WHERE UnitType='UNIT_PRIVATEER';

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- congress -->
+		<Replace Tag="LOC_WORLD_CONGRESS_IMPROVE_TRADE_WTH_PLAYER_DESC" Language="en_US">
+			<Text>[ICON_TradeRoute] Trade Routes sent to the chosen player provide +4 [ICON_Gold] Gold for both cities. The chosen player receives +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_BAN_RELIGION_DESC" Language="en_US">
+			<Text>All players may condemn units of the chosen Religion, and doing so grants 30 [ICON_Favor] Diplomatic Favor.</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_FAVOR_FROM_TRADE_AND_ENVOYS_WITH_MINORS_DESC" Language="en_US">
+			<Text>[ICON_TradeRoute] Trade Routes sent to City-States of chosen type provide +4 of their yield type.</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_MORE_GROWTH_LESS_LOYALTY_DESC" Language="en_US">
+			<Text>+20% faster [ICON_Citizen] Population growth but -6 Loyalty per turn in chosen player's cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_LESS_GROWTH_MORE_LOYALTY_DESC" Language="en_US">
+			<Text>+6 Loyalty per turn but -20% [ICON_Citizen] Population growth in chosen player's cities.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_ARTISTS" Language="en_US">
+			<Text>Nobel Foundation is awarding a Nobel Prize for Literature.  Let's prove ourselves the most artful, and win this prestigious prize.</Text>
+		</Replace>
+		<Replace Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_STEMS" Language="en_US">
+			<Text>Nobel Foundation is awarding a Nobel Prize for Physics.  Let's prove ourselves the most scientifically minded, and win this prestigious prize.</Text>
+		</Replace>
+		<Replace Tag="LOC_EMERGENCY_DESCRIPTION_FAVOR" Language="en_US">
+			<Text>Nobel Foundation is awarding a Nobel Prize for Peace.  Let's prove ourselves the most peaceful, and win this prestigious prize.</Text>
+		</Replace>
+		
+		<!-- alliance -->
+		<Replace Tag="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1" Language="en_US">
+			<Text>+3 [ICON_Amenities] Amenities in cities if you have [ICON_TradeRoute] Trade Route from that city to your ally</Text>
+		</Replace>
+		<Replace Tag="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT" Language="en_US">
+			<Text>Envoys sent to City-States you have [ICON_TradeRoute] Trade Route to count as 2 [ICON_Envoy] Envoys</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,4 +1,4 @@
-<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="2">
+﻿<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="2">
 	<Properties>
 		<Name>bariskok82's Civ 6 Balance</Name>
 		<Description>bariskok82's Civ 6 Balance (Personal Use)</Description>
@@ -22,11 +22,14 @@
 			<Properties>
 				<LoadOrder>200</LoadOrder>
 			</Properties>
-			<File>english_infra.xml</File>
-			<File>english_state.xml</File>
-			<File>english_diplo.xml</File>
-			<File>english_nature.xml</File>
-			<File>english_other.xml</File>
+			<File>localization/english_district.xml</File>
+			<File>localization/english_building.xml</File>
+			<File>localization/english_improvement.xml</File>
+			<File>localization/english_wonder.xml</File>
+			<File>localization/english_state.xml</File>
+			<File>localization/english_diplo.xml</File>
+			<File>localization/english_nature.xml</File>
+			<File>localization/english_other.xml</File>
 		</UpdateText>
 	</FrontEndActions>
 
@@ -36,11 +39,14 @@
 			<Properties>
 				<LoadOrder>200</LoadOrder>
 			</Properties>
-			<File>english_infra.xml</File>
-			<File>english_state.xml</File>
-			<File>english_diplo.xml</File>
-			<File>english_nature.xml</File>
-			<File>english_other.xml</File>
+			<File>localization/english_district.xml</File>
+			<File>localization/english_building.xml</File>
+			<File>localization/english_improvement.xml</File>
+			<File>localization/english_wonder.xml</File>
+			<File>localization/english_state.xml</File>
+			<File>localization/english_diplo.xml</File>
+			<File>localization/english_nature.xml</File>
+			<File>localization/english_other.xml</File>
 		</UpdateText>
 		
 		<UpdateIcons id="icon_updates">
@@ -55,10 +61,13 @@
 			<File>policies.sql</File>
 			<File>citystates.sql</File>
 			<File>greatpeople.sql</File>
+			<File>greatworks.sql</File>
 			<File>districts.sql</File>
+			<File>district_cost.sql</File>
 			<File>specialists.sql</File>
 			<File>routes.sql</File>
-			<File>speed.sql</File>
+			<File>plunder.sql</File>
+			<File>technology_civic.sql</File>
 			<File>buildings.sql</File>
 			<File>improvements.sql</File>
 			<File>energy.sql</File>
@@ -82,20 +91,26 @@
 
 	<!-- defines file dependencies -->
 	<Files>
-		<File>english_infra.xml</File>
-		<File>english_state.xml</File>
-		<File>english_diplo.xml</File>
-		<File>english_nature.xml</File>
-		<File>english_other.xml</File>
+		<File>localization/english_district.xml</File>
+		<File>localization/english_building.xml</File>
+		<File>localization/english_improvement.xml</File>
+		<File>localization/english_wonder.xml</File>
+		<File>localization/english_state.xml</File>
+		<File>localization/english_diplo.xml</File>
+		<File>localization/english_nature.xml</File>
+		<File>localization/english_other.xml</File>
 		<File>icons.sql</File>
 		<File>base.sql</File>
 		<File>policies.sql</File>
 		<File>citystates.sql</File>
 		<File>greatpeople.sql</File>
+		<File>greatworks.sql</File>
 		<File>districts.sql</File>
+		<File>district_cost.sql</File>
 		<File>specialists.sql</File>
 		<File>routes.sql</File>
-		<File>speed.sql</File>
+		<File>plunder.sql</File>
+		<File>technology_civic.sql</File>
 		<File>buildings.sql</File>
 		<File>improvements.sql</File>
 		<File>energy.sql</File>
@@ -111,3 +126,4 @@
 		<File>leader.sql</File>
 	</Files>
 </Mod>
+

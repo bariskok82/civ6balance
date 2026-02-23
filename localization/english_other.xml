@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>	
+		<!-- leader -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GAUL_DESCRIPTION" Language="en_US">
+			<Text>Mines provide a minor adjacency bonus for all districts and +1 [ICON_CULTURE] Culture. Specialty districts do not receive minor adjacency from other districts and cannot be built adjacent to City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TechBoosted] Eurekas provide all of [ICON_SCIENCE] Science for technologies. -60% [ICON_SCIENCE] Science in all cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THUNDERBOLT_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Allows coastal raiding for all naval melee units. +50% [ICON_PRODUCTION] Production towards naval melee units. Pillaging and coastal raiding Mines and Quarries provide [ICON_SCIENCE] Science in addition to [ICON_GOLD] Gold. Pillaging or coastal raiding Plantations and Camps provide [ICON_CULTURE] Culture in addition to [ICON_FAITH] Faith. Gain Viking Longship unique unit with Sailing.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PRASAT_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Khmer. Replaces Temple building. Allows purchasing Apostles, Gurus, and Inquisitors with [ICON_Faith] Faith. +0.5 [ICON_Culture] Culture per [ICON_CITIZEN] Population in this city. After Flight Technology, +5 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] Population is 10 or higher and +5 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] Population is 20 or higher.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Receiving declaration of war or liberating a city grants +100% [ICON_Production] Production in all cities for 5 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="en_US">
+			<Text>Non-capital cities within 6 tiles of [ICON_Capital] Capital gain +10% to all yields and receive 1 Builder when settled. Other non-capital cities suffer -10% to all yields. +5 [ICON_Strength] Combat Strength to units within 6 tiles of [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, +2 [ICON_Gold] Gold, and +2 [ICON_Faith] Faith from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art. +50% [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, and [ICON_GreatMerchant] Great Merchant points. Palace has slots for 5 Great Works.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION" Language="en_US">
+			<Text>Can declare War of Liberation after Defensive Tactics Civic. Declaring War of Liberation grants +50% [ICON_Production] Production in all cities and +2 [ICON_Movement] Movement to all units for 10 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
+			<Text>Receive the final [ICON_GreatProphet] Great Prophet when all other ones are claimed by other civilizations. +2 [ICON_Science] Science from each foreign city following your Religion.</Text>
+		</Replace>
+		
+		<!-- units -->
+		<Replace Tag="LOC_THEOCRACY_MONK_BUFF_BK_PREVIEW" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Theocracy government.</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGIOUS_ORDERS_MONK_BUFF_BK_PREVIEW" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Religious Orders policy.</Text>
+		</Replace>
+		<Replace Tag="LOC_THEOCRACY_MONK_BUFF_BK_PREVIEW" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Theocracy government.</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGIOUS_ORDERS_MONK_BUFF_BK_PREVIEW" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Religious Orders policy.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_SENTRY_DESCRIPTION" Language="en_US">
+			<Text>Can see through Woods and Rainforest. +50% Experience.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_GUERRILLA_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking. Ignores zone of control.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SPYGLASS_DESCRIPTION" Language="en_US">
+			<Text>+2 sight range.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CAMOUFLAGE_DESCRIPTION" Language="en_US">
+			<Text>Only adjacent enemy units can reveal this unit. +1 [ICON_Movement] Movement.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_BATTLECRY_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking melee, ranged, and anti-cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when having non-ranged combat in districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ELITE_GUARD_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn. Can move after attacking.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_VOLLEY_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Ranged] Ranged Strength when attacking land units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when occupying defensive improvements or districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARROW_STORM_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Ranged] Ranged Strength when attacking land and naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_INCENDIARIES_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Ranged] Ranged Strength when attacking district defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SUPPRESSION_DESCRIPTION" Language="en_US">
+			<Text>Exercise zone of control. Adjacent enemy units receive -3 [ICON_STRENGTH] Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending against district defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION" Language="en_US">
+			<Text>80% less [ICON_Strength] Combat Strength reduction from being injured.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending in Woods, Rainforest, Hills, or Marsh.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION" Language="en_US">
+			<Text>Adjacent units that are not anti-cavalry get +10 [ICON_Strength] Combat Strength vs. cavalry.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_CAPARISON_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. anti-cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking undamaged units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION" Language="en_US">
+			<Text>Formation units inherit [ICON_Movement] Movement. Adjacent units that are not cavalry receive +1 [ICON_Movement] Movement.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_CHARGE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when attacking fortified units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BARDING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_MARAUDING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking units in districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROUT_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when attacking damaged units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending in undamaged state.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn. Can move after attacking.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking units in Woods, Rainforest, Hills, or Reef.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_HELMSMAN_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement. +1 sight range.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_REINFORCED_HULL_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_RUTTER_DESCRIPTION" Language="en_US">
+			<Text>Can see through Woods and Rainforest. +50% Experience.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_LINE_OF_BATTLE_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BOMBARDMENT_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking district defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PREPARATORY_FIRE_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking land units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROLLING_BARRAGE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when attacking district defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PROXIMITY_FUSES_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending against air attacks.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_OBSERVATION_DESCRIPTION" Language="en_US">
+			<Text>+2 sight range.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_DOGFIGHTING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. fighter units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_COCKPIT_ARMOR_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. anti-air defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_INTERCEPTOR_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. bomber units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_STRAFE_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength when attacking land units that are not cavalry.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TANK_BUSTER_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength when attacking cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_GROUND_CREWS_DESCRIPTION" Language="en_US">
+			<Text>Can heal after attacking.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_BOX_FORMATION_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. fighter units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. anti-air defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TORPEDO_BOMBER_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength when attacking naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_DESCRIPTION" Language="en_US">
+			<Text>+12 [ICON_Strength] Combat Strength when attacking land units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SUPERFORTRESS_DESCRIPTION" Language="en_US">
+			<Text>+14 [ICON_Strength] Combat Strength vs. district defenses.</Text>
+		</Replace>
+		
+		<!-- satellites -->
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_MILITARY_NAME" Language="en_US">
+			<Text>Launch Military Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_MILITARY_SHORT_NAME" Language="en_US">
+			<Text>Launch Military Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_MILITARY_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite into orbit to aid military force. All units gain +3 [ICON_Strength] Combat Strength. Requires 30 [ICON_RESOURCE_ALUMINUM] Aluminum to begin construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_MILITARY_POPUP" Language="en_US">
+			<Text>You've successfully launched a military satellite into orbit! Provides support to all your units in battle.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_BROADCAST_NAME" Language="en_US">
+			<Text>Launch Broadcast Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_BROADCAST_SHORT_NAME" Language="en_US">
+			<Text>Launch Broadcast Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_BROADCAST_DESCRIPTION" Language="en_US">
+			<Text>Repeatable Space project which launches a satellite into orbit to improve broadcast service. +5% [ICON_Tourism] Tourism across your empire. Requires 15 [ICON_RESOURCE_ALUMINUM] Aluminum to begin construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_BROADCAST_POPUP" Language="en_US">
+			<Text>You've successfully launched a broadcast satellite into orbit! Your cultural programs can be received better around the world.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_COMMUNICATION_NAME" Language="en_US">
+			<Text>Launch Communication Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_COMMUNICATION_SHORT_NAME" Language="en_US">
+			<Text>Launch Communication Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_COMMUNICATION_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite into orbit to establish communication network. +4 [ICON_Gold] Gold from international [ICON_TradeRoute] Trade Routes and +2 [ICON_Production] Production from domestic [ICON_TradeRoute] Trade Routes. Requires 30 [ICON_RESOURCE_ALUMINUM] Aluminum to begin construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_COMMUNICATION_POPUP" Language="en_US">
+			<Text>You've successfully launched a communication satellite into orbit! Makes trades more profitable with faster flow of information.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_SOLAR_POWER_NAME" Language="en_US">
+			<Text>Launch Solar Energy Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_SOLAR_POWER_SHORT_NAME" Language="en_US">
+			<Text>Launch Solar Energy Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_SOLAR_POWER_DESCRIPTION" Language="en_US">
+			<Text>Repeatable Space project which launches a satellite into orbit to gather solar energy. Provides +6 [ICON_Power] Power to the city from renewable solar sources. Requires 15 [ICON_RESOURCE_ALUMINUM] Aluminum to begin construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_SOLAR_POWER_POPUP" Language="en_US">
+			<Text>You've successfully launched a solar energy satellite into orbit! Provides clean solar power to this city via microwave transmissions.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_WEATHER_NAME" Language="en_US">
+			<Text>Launch Weather Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_WEATHER_SHORT_NAME" Language="en_US">
+			<Text>Launch Weather Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_WEATHER_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite into orbit to gather weather data. +1 [ICON_Food] Food for each Farm and +1 [ICON_Production] Production for each Farm on resource in your empire. Requires 30 [ICON_RESOURCE_ALUMINUM] Aluminum to begin construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_WEATHER_POPUP" Language="en_US">
+			<Text>You've successfully launched a weather satellite into orbit! Allows your farmers to make better decisions regarding agriculture.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_ECOLOGY_NAME" Language="en_US">
+			<Text>Launch Ecology Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_ECOLOGY_SHORT_NAME" Language="en_US">
+			<Text>Launch Ecology Satellite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_ECOLOGY_DESCRIPTION" Language="en_US">
+			<Text>Repeatable Space project which launches a satellite into orbit to maintain ecology in the area. Provides +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity to the city. Requires 15 [ICON_RESOURCE_ALUMINUM] Aluminum to begin construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_SATELLITE_ECOLOGY_POPUP" Language="en_US">
+			<Text>You've successfully launched a ecology satellite into orbit! Allows sustainable growth by restoring local ecosystem.</Text>
+		</Replace>
+
+		<!-- eras -->
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>Reform the Coinage Golden Age:[NEWLINE]Traders are immune to being plundered. International [ICON_TradeRoute] Trade Routes provide +2 [ICON_Gold] Gold per specialty district in the destination city.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>Hic Sunt Dracones Golden Age:[NEWLINE]+3 [ICON_Citizen] Population for cities settled on different continent than your [ICON_Capital] Capital. +2 [ICON_Movement] Movement for naval and embarked units. +3 Loyalty per turn for cities not on your [ICON_Capital] Capital's continent.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>Monumentality Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. Can purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
+		</Replace>
+		
+		<!-- technology/civic -->
+		<Replace Tag="LOC_TECH_POTTERY_DESCRIPTION" Language="en_US">
+			<Text>Allows harvesting of [ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_RICE] Rice, and [ICON_RESOURCE_MAIZE] Maize.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
+			<Text>Allows Builders to embark, and allows harvesting of [ICON_RESOURCE_FISH] Fish and [ICON_RESOURCE_CRABS] Crabs.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_BRONZE_WORKING_DESCRIPTION" Language="en_US">
+			<Text>Allows chopping of Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION" Language="en_US">
+			<Text>Allows Traders to embark.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_APPRENTICESHIP_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food on Pastures.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold on Fishing Boats. All naval and embarked units can navigate Ocean tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_PRINTING_DESCRIPTION" Language="en_US">
+			<Text>Provides one more level of diplomatic visibility on all other civilizations. All [ICON_Culture] Culture and [ICON_Tourism] Tourism yields from [ICON_GreatWork_Writing] Great Works of Writing are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Quarries.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food on Plantations.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_FLIGHT_DESCRIPTION" Language="en_US">
+			<Text>Receive [ICON_Tourism] Tourism on all improvements, equal to their [ICON_Culture] Culture output.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food for every adjacent Farm on Farms. +1 [ICON_Production] Production on Pastures.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Lumber Mills. All cities receive 300 Fortification Strength and are not affected by Siege Towers or Battering Rams.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ROCKETRY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Quarries.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to construct an additional Spy. +2 [ICON_Power] Power per turn to Hydroelectric Dam. +20% [ICON_Tourism] Tourism across your empire.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_DESCRIPTION" Language="en_US">
+			<Text>Unlocks Aircraft Carrier upgrade: Flight Deck (+1 additional aircraft slot), Scout Planes (+1 sight range).</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STEALTH_TECHNOLOGY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks Aircraft Carrier upgrade: Hangar Deck (+1 additional aircraft slot), Advanced Engines (+1 [ICON_Movement] Movement).</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food on Pastures. Unlocks Aircraft Carrier upgrade: Folding Wings (+1 additional aircraft slot), Deck Crews (Can heal after attacking), Supercarrier (Heal outside of friendly territory.)</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION" Language="en_US">
+			<Text>Can build Solar Farms on Tundra and Snow.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_NUCLEAR_FUSION_DESCRIPTION" Language="en_US">
+			<Text>Can build Offshore Wind Farms on Ocean.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPOSITES_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Power] Power per turn to Solar Farms.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_LASERS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Power] Power per turn to Wind Farms.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_NANOTECHNOLOGY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Power] Power per turn to Geothermal Plants.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TECH_ADVANCED_AI_DESCRIPTION" Language="en_US">
+			<Text>Unlocks Giant Death Robot upgrade: Drone Air Defense (+100 [ICON_AntiAir_Large] Anti-Air Strength).</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_DESCRIPTION" Language="en_US">
+			<Text>CO2 emissions from units reduced by 50%. Unlocks Giant Death Robot upgrade: Particle Beam Siege Cannon (Ranged attacks against district defenses are 100% effective and gain +30 [ICON_Ranged] Ranged Strength.)</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Mines. Unlocks Giant Death Robot upgrade: Reinforced Armor Plating (+10 [ICON_Strength] Combat Strength when defending against land and naval units.)</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CYBERNETICS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Lumber Mills. Unlocks Giant Death Robot upgrade: Enhanced Mobility (+3 [ICON_Movement] Movement. Can perform Jump action to cross over mountain.)</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_PREDICTIVE_SYSTEMS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Quarries, Oil Wells, and Offshore Oil Rigs.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BOOST_TRIGGER_SIEGE_TACTICS" Language="en_US">
+			<Text>Own 2 Trebuchets.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS" Language="en_US">
+			<Text>After creating trebuchets you realize that castles are not impregnable – you need a stauncher defense!.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS" Language="en_US">
+			<Text>Own 3 Line infantry.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_REPLACEABLE_PARTS" Language="en_US">
+			<Text>Your armament makers are tired of having to hand craft so many muskets. Perhaps some standardization would help?</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="en_US">
+			<Text>Allows creation of [ICON_TradeRoute] Trade Routes.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EARLY_EMPIRE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the abilities to enforce borders.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food for every 2 adjacent Farms on Farms. +1 [ICON_Food] Food on Plantations.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production and +1 [ICON_Food] Food on Camps. Can build Lumber Mills on Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_COLONIALISM_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production on Fishing Boats.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="en_US">
+			<Text>Can build Farms on Grassland Hills and Plains Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_NATIONALISM_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to construct an additional Spy. Allows forming two identical units into a Corps or Fleet.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="en_US">
+			<Text>Can build National Parks. Allows Builders to plant Woods (second-growth). +1 Appeal to original Woods in your empire (old-growth). Receive [ICON_TOURISM] Tourism from Walls.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MOBILIZATION_DESCRIPTION" Language="en_US">
+			<Text>Allows forming three identical units into an Army or Armada.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_RAPID_DEPLOYMENT_DESCRIPTION" Language="en_US">
+			<Text>Allows transportation of land units between Airports.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="en_US">
+			<Text>+30% [ICON_Tourism] Tourism across your empire.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

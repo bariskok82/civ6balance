@@ -1,5 +1,3 @@
-UPDATE CivilizationLevels SET CanAnnexTilesWithReceivedInfluence=0, StartingTilesForCity=18 WHERE CivilizationLevelType='CIVILIZATION_LEVEL_CITY_STATE';
-
 INSERT INTO RequirementSets ( RequirementSetId, RequirementSetType ) VALUES
 		( 'SPECIAL_DISTRICT_ON_COAST_BK', 'REQUIREMENTSET_TEST_ALL' );
 INSERT INTO RequirementSetRequirements ( RequirementSetId, RequirementId ) VALUES

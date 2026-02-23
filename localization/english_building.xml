@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- buildings -->
+		<Replace Tag="LOC_BUILDING_MONUMENT_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>Provides +2 Loyalty per turn in this city. If this city has maximum Loyalty, also provides extra +1 [ICON_Culture] Culture.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food on [ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_MAIZE] Maize, [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_CATTLE] Cattle for this city. Must be built in a city adjacent to River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLOOD_BARRIER_DESCRIPTION" Language="en_US">
+			<Text>Protects Coastal Lowland in this city from flooding. Flooded tiles can be fully repaired, but submerged tiles are never recoverable. Must be built in a city with Coastal Lowland.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_WALLS_DESCRIPTION" Language="en_US">
+			<Text>Provides district defenses and [ICON_Ranged] Ranged Strikes ability to City Center and Encampment district.[NEWLINE]Provides 1 [ICON_TOURISM] Tourism after Conservation Civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Increases the strength of district defenses. This city is not affected by Battering Rams.[NEWLINE]Provides 2 [ICON_TOURISM] Tourism after Conservation Civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Increases the strength of district defenses. This city is not affected by Siege Towers or Battering Rams.[NEWLINE]Provides 3 [ICON_TOURISM] Tourism after Conservation Civic.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_GROVE_DESCRIPTION" Language="en_US">
+			<Text>Grants +1 [ICON_FOOD] Food and +1 [ICON_FAITH] Faith to adjacent Charming tiles. Increased to +2 [ICON_FOOD] Food, +2 [ICON_FAITH] Faith, +2 [ICON_CULTURE] Culture for adjacent Breathtaking tiles without improvements.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SANCTUARY_DESCRIPTION" Language="en_US">
+			<Text>Grants +1 [ICON_SCIENCE] Science and +1 [ICON_GOLD] Gold to adjacent Charming tiles.  Increased to +2 [ICON_SCIENCE] Science, +3 [ICON_GOLD] Gold, +2 [ICON_PRODUCTION] Production for adjacent Breathtaking tiles without improvements.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION" Language="en_US">
+			<Text>Allows purchasing Missionaries with [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEMPLE_DESCRIPTION" Language="en_US">
+			<Text>Allows purchasing Apostles, Gurus, and Inquisitors with [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MOSQUE_DESCRIPTION" Language="en_US">
+			<Text>Missionary and Apostles purchased here can spread Religion 1 extra time.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Production] Production extends to each City Center within 6 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Converts [ICON_RESOURCE_COAL] Coal into [ICON_Power] Power as necessary for cities within 6 tiles each turn, at the rate of 1 [ICON_RESOURCE_COAL] Coal [ICON_PowerRight] 4 [ICON_Power] Power.[NEWLINE]Causes heavy CO2 emission into the atmosphere.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Converts [ICON_RESOURCE_OIL] Oil into [ICON_Power] Power as necessary for cities within 6 tiles each turn, at the rate of 1 [ICON_RESOURCE_OIL] Oil [ICON_PowerRight] 4 [ICON_Power] Power.[NEWLINE]Bonus [ICON_Production] Production extends to all City Centers within 6 tiles.[NEWLINE]Causes Moderate CO2 emission into the atmosphere.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Converts [ICON_RESOURCE_URANIUM] Uranium into [ICON_Power] Power as necessary for cities within 6 tiles each turn, at the rate of 1 [ICON_RESOURCE_URANIUM] Uranium [ICON_PowerRight] 16 [ICON_Power] Power.[NEWLINE]Bonus [ICON_Production] Production and [ICON_Science] Science extends to all City Centers within 6 tiles.[NEWLINE]Causes minor CO2 emission into the atmosphere. There is a chance for a Nuclear Accident to occur, which increases as the reactor ages.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="en_US">
+			<Text>Provides +4 [ICON_Power] Power per turn from renewable water sources.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TOURISM] Tourism after Conservation Civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Amenities] Amenity extends to each City Center within 6 tiles.[NEWLINE]+1 [ICON_SCIENCE] Science on Rainforest and Marsh for this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_TOURISM] Tourism.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Amenities] Amenity extends to each City Center within 9 tiles.[NEWLINE]+1 [ICON_SCIENCE] Science on coastal resources and Reef for this city.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Amenities] Amenities extend to each City Center within 6 tiles.[NEWLINE]+2 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] Population is 10 or higher and +4 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] Population is 20 or higher.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Amenities] Amenities extend to each City Center within 9 tiles.[NEWLINE]+2 [ICON_Tourism] Tourism for each Wonder built in this city on or adjacent to Coast.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_BARRACKS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all melee and ranged units trained in this city.[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STABLE_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all cavalry and siege units trained in this city.[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all land units trained in this city.[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all land units trained in this city. Allows Corps and Armies to be trained directly (-25% cost).[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all naval units trained in this city.[NEWLINE]+1 [ICON_FOOD] Food on Coast for this city. +1 [ICON_HOUSING] Housing if this city is adjacent to Coast.[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city does not have Market building.[NEWLINE]Strategic Resource Stockpiles increased +5, if this city does not have Barracks or Stable building (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all naval units trained in this city.[NEWLINE]+1 [ICON_PRODUCTION] Production on Reef for this city.[NEWLINE]Strategic Resource Stockpiles increased +5, if this city does not have Armory building (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all naval units trained in this city. Allows Fleets and Armadas to be trained directly (-25% cost).[NEWLINE]+2 [ICON_GOLD] Gold on Coast for this city.[NEWLINE]Strategic Resource Stockpiles increased +5, if this city does not have Military Academy building (on Standard Speed).</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_HANGAR_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for air units trained in this city. +1 air unit slot.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIRPORT_DESCRIPTION" Language="en_US">
+			<Text>+50% combat experience for air units trained in this city. +1 air unit slot.[NEWLINE]Can transport land units after Rapid Deployment Civic.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in Cities with [ICON_Governor] Governors.[NEWLINE]This city can build one more district than the [ICON_Citizen] Population limit allows.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
+			<Text>New cities receive 1 Builder and start with 3 additional tiles.[NEWLINE]50% increased [ICON_Production] Production toward Settlers in this City.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="en_US">
+			<Text>Capturing an enemy City grants 20% bonus [ICON_Production] Production in all Cities for 5 turns.[NEWLINE]This bonus is increased to 50% for this city.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Favor] Diplomatic Favor. Leveraging City States costs half [ICON_Gold] Gold. City State units gain +4 [ICON_Strength] Combat Strength if you are the City State's Suzerain (including Leveraged Units).[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="en_US">
+			<Text>+1 Spy and Spy capacity. All Spy Operations have a higher chance of success.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to purchase land combat units with [ICON_Faith] Faith.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="en_US">
+			<Text>All units heal up to 20 points when they eliminate a unit.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="en_US">
+			<Text>Provides 4 slots for any Great Work. Enemies receive 50% more war weariness from fighting against you.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>Builders gain the ability to use all of their charges to provide bonus [ICON_Production] Production to district projects. Once per city per turn.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="en_US">
+			<Text>+2 Influence Points per turn. Enemy Spies operate at 1 level below normal when targeting this city or cities with Encampments.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="en_US">
+			<Text>+3 Influence Points per turn. Capturing or killing enemy Spy grants 100 [ICON_Science] Science (on Standard Speed) for every level.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

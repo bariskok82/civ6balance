@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>	
+		<!-- great people -->
+		<Replace Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE" Language="en_US">
+			<Text>Grants +3 Loyalty per turn for this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TIMUR_ACTIVE" Language="en_US">
+			<Text>Grants 1 promotion level and +50% combat experience to a military land unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TIMUR_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+			<Text>+50% Earned experience from combat (Timur)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE" Language="en_US">
+			<Text>Grants +6 Loyalty per turn for this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="en_US">
+			<Text>Grants 1 promotion level and +100% combat experience to a military land unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+			<Text>+100% Earned experience from combat. (John Monash)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_HANGAR_BK" Language="en_US">
+			<Text>Instantly builds a Hangar in this district.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE" Language="en_US">
+			<Text>+20% [ICON_Production] Production towards military units.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength and +50% flanking bonus for all land units.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZHUKOV_LAND_COMBAT_BK_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength for all land units. (Georgy Zhukov)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZHUKOV_LAND_COMBAT_BK_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} Combat Strength from Georgy Zhukov</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE" Language="en_US">
+			<Text>Grants +6 Loyalty per turn for this city.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HIMERIOS_ACTIVE" Language="en_US">
+			<Text>Grants 1 promotion level and +50% combat experience to a military naval unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HIMERIOS_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+			<Text>+50% Earned experience from combat (Himerios)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LEIF_ERIKSON_EXPANSION2_ACTIVE" Language="en_US">
+			<Text>+1 sight range for all naval units. All naval and embarked units can navigate Ocean tiles without the normal technology requirement.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CHING_SHIH_EXPANSION2_ACTIVE" Language="en_US">
+			<Text>Gain 500 [ICON_Gold] Gold (on Standard speed). Military units get +50% rewards for plundering sea [ICON_TradeRoute] Trade Routes.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CHING_SHIH_PLUNDER_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+50% Rewards for plundering trade routes. (Ching Shih)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_HORATIO_NELSON_EXPANSION2_ACTIVE" Language="en_US">
+			<Text>+50% flanking bonus for all naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE" Language="en_US">
+			<Text>Grants 1 promotion level and +100% combat experience to a military naval unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+			<Text>+100% Earned experience from combat (Laskarina Bouboulina)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE_BK" Language="en_US">
+			<Text>Instantly creates a Battleship unit with 1 promotion level. Grants 2 [ICON_RESOURCE_Coal] Coal per Turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MILITARY_POLICY_SLOT_BK" Language="en_US">
+			<Text>+1 Military policy slot in any government.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE_BK" Language="en_US">
+			<Text>All current units gain a Promotion level.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATPERSON_1RENAISSANCECIVICBOOST_BK" Language="en_US">
+			<Text>Triggers the [ICON_CivicBoosted] Inspiration moment for {Amount} random {Amount : plural 1?civic; other?civics;} from the Renaissance era.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FAITH_200_BK" Language="en_US">
+			<Text>Gain {Amount} [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DISTRICT_PRODUCTION_BK" Language="en_US">
+			<Text>+25% [ICON_Production] Production toward districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_2ATOMICINFORMATIONTECHBOOST_BK" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for {Amount} random {Amount : plural 1?technology; other?technologies;} from the Atomic or Information era.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PROJECT_PRODUCTION_30_BK" Language="en_US">
+			<Text>+30% [ICON_Production] Production towards city projects.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_ANY_BK" Language="en_US">
+			<Text>Grants {Amount} [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCIENCE_MODIFIER_BK" Language="en_US">
+			<Text>+{Amount}% [ICON_Science] Science in all cities.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATPERSON_FAITH_TRADE_ROUTE_BK" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes gain +1 [ICON_Faith] Faith and exert +100% Religious pressure.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_FAVOR_50_BK" Language="en_US">
+			<Text>Gain {Amount : number #} [ICON_Favor] Diplomatic Favor.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_300_BK" Language="en_US">
+			<Text>Gain {Amount : number #} [ICON_Gold] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="en_US">
+			<Text>Grants {Amount} [ICON_RESOURCE_TOYS] Toys, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_FAVOR_100_BK" Language="en_US">
+			<Text>Gain {Amount : number #} [ICON_Favor] Diplomatic Favor.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MELITTA_BENTZ_ACTIVE_BK" Language="en_US">
+			<Text>Grants 1 Trader in this city, and increases [ICON_TradeRoute] Trade Route capacity by 2. +25% [ICON_Tourism] Tourism rate towards other civilizations you have a [ICON_TradeRoute] Trade Route to.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JAMSETJI_TATA_ACTIVE_BK" Language="en_US">
+			<Text>Campus districts provide +3 [ICON_Tourism] Tourism and +1 [ICON_AMENITIES] Amenity.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MASARU_IBUKA_ACTIVE_BK" Language="en_US">
+			<Text>Industrial Zone districts provide +3 [ICON_Tourism] Tourism and +1 [ICON_AMENITIES] Amenity.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATPERSON_EUCLID_CAMPUS_RIVER_ADJACENCY_BK" Language="en_US">
+			<Text>Campus districts get +{Amount} [ICON_Science] Science if adjacent to river.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="en_US">
+			<Text>Chosen Campus gains +2 [ICON_Housing] Housing and +1 [ICON_AMENITIES] Amenity. Increases non-[ICON_Food]Food Happiness bonus by 50% in your empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE" Language="en_US">
+			<Text>Gain 300 [ICON_Science] Science (on Standard speed) for each adjacent Mountain.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE" Language="en_US">
+			<Text>Gain 600 [ICON_Science] Science (on Standard speed) for each natural wonder within 1 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ADJUST_TECHBOOST_BK" Language="en_US">
+			<Text>[ICON_TechBoosted] Eurekas provide extra 10% of technology cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_STRATEGIC_SCIENCE_BK" Language="en_US">
+			<Text>+1 [ICON_Science] Science on Strategic resources that you have revealed.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ALAN_TURING_DISTRICTS_SCIENCE_BONUS_BK" Language="en_US">
+			<Text>+1 [ICON_Science] Science for each specialty district.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_GRANT_LOTSO_SCIENCE" Language="en_US">
+			<Text>Grants 1500 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture (on Standard speed).</Text>
+		</Replace>
+    </LocalizedText>
+</GameData>

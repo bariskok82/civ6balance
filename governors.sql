@@ -1,6 +1,3 @@
-UPDATE Governors SET TransitionStrength = 100 WHERE GovernorType != 'GOVERNOR_THE_DEFENDER';
-UPDATE Governors SET TransitionStrength = 150 WHERE GovernorType = 'GOVERNOR_THE_DEFENDER';
-
 DELETE FROM GovernorPromotionModifiers WHERE GovernorPromotionType = 'GOVERNOR_PROMOTION_GARRISON_COMMANDER' AND ModifierId = 'GARRISON_COMMANDER_ADJUST_CITY_COMBAT_BONUS';
 DELETE FROM GovernorPromotionModifiers WHERE GovernorPromotionType = 'GOVERNOR_PROMOTION_DEFENSE_LOGISTICS' AND ModifierId = 'DEFENSE_LOGISTICS_BONUS_STRATEGICS';
 INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES

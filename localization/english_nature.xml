@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- natural wonders -->
+		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_DESCRIPTION" Language="en_US">
+			<Text>Three tile natural wonder. It provides +6 [ICON_Science] Science, and +3 [ICON_Science] Science to adjacent tiles. Units that enter it are teleported to an ocean far away, but naval units that do so earn the ability 'Mysterious Currents' (+1 [ICON_Movement] Movement).</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION" Language="en_US">
+			<Text>Four tile natural wonder. It provides +2 [ICON_Food] Food, +2 [ICON_Production] Production, and +2 [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION" Language="en_US">
+			<Text>Two tile natural wonder. It appears with Cliffs adjacent to water and provides +2 [ICON_Food] Food, +3 [ICON_Gold] Gold, +3 [ICON_Culture] Culture. Also provides +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to adjacent tiles. Improvements cannot be placed on it.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CRATER_LAKE_DESCRIPTION" Language="en_US">
+			<Text>One tile natural wonder. It appears as a Lake and provides +3 [ICON_Science] Science, +5 [ICON_Faith] Faith, and Fresh Water. Also provides +4 appeal, instead of the usual +2 appeal to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DEAD_SEA_DESCRIPTION" Language="en_US">
+			<Text>Two tile natural wonder. It appears as a Lake and provides +1 [ICON_Food] Food, +2 [ICON_Culture] Culture, and +2 [ICON_Faith] Faith. Units heal completely if they heal for one turn in adjacent plots. Does not provide Fresh Water.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DELICATE_ARCH_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It provides +3 [ICON_Gold] Gold, +1 [ICON_Science] Science, and +2 [ICON_Faith] Faith to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It provides +2 [ICON_Production] Production and +1 [ICON_FAITH] Faith to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION" Language="en_US">
+			<Text>Three tile natural wonder. It provides +2 [ICON_PRODUCTION] Production, +1 [ICON_SCIENCE] Science and +1 [ICON_Faith] Faith. Extra +1 [ICON_PRODUCTION] Production and +4 [ICON_SCIENCE] Science after the Atomic era.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. It appears as a Volcano and provides +1 [ICON_Food] Food and +1 [ICON_Culture] Culture to adjacent tiles. On eruption it gives medium yields and is most likely to damage buildings and districts. Infrequently erupts, but is always active.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION" Language="en_US">
+			<Text>One tile natural wonder. It provides +2 [ICON_Food] Food and +3 [ICON_Faith] Faith, and Fresh Water. Land combat units that enter the tile receive the ability 'Water of Life' (+10 HP healing in any territory).</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GALAPAGOS_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. It appears on coastal terrain and provides +1 [ICON_Food] Food and +2 [ICON_Science] Science to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. It provides +1 [ICON_Culture] Culture to adjacent tiles. Land combat units that enter adjacent plots receive the ability, 'Spear of Fionn' (+5 combat strength).</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION" Language="en_US">
+			<Text>Three tile natural wonder. It provides +3 [ICON_Production] Production and +4 [ICON_CULTURE] Culture.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_BARRIER_REEF_DESCRIPTION" Language="en_US">
+			<Text>Two tile natural wonder. It can be found on coastal terrain and provides +3 [ICON_Food] Food, +3 [ICON_Gold] Gold, and +3 [ICON_Science] Science. Also provides major adjacency bonus to Campus district.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_HA_LONG_BAY_DESCRIPTION" Language="en_US">
+			<Text>Two tile natural wonder. It can be found on coastal terrain and provides +3 [ICON_Food] Food, +1 [ICON_Production] Production, and +1 [ICON_Culture] Culture. +15 [ICON_Strength] Combat Strength when defending in this tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_IKKIL_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. Provides +1 [ICON_Gold] Gold to adjacent tiles, and Fresh Water. +50% [ICON_Production] Production when producing wonders and districts in adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LAKE_RETBA_DESCRIPTION" Language="en_US">
+			<Text>Two tile natural wonder. It appears as a Lake and provides +1 [ICON_Production] Production, +4 [ICON_Gold] Gold, and +2 [ICON_Culture] Culture. Also provides +4 appeal, instead of the usual +2 appeal to adjacent tiles. Does not provide Fresh Water.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LYSEFJORDEN_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. Provides +1 [ICON_Production] Production to adjacent tiles. Naval combat units that enter adjacent plots for the first time are granted their next promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MATTERHORN_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Culture] Culture to adjacent tiles. Also provides +4 appeal, instead of the usual +2 appeal to adjacent tiles. Land combat units that enter adjacent plots gain +4[ICON_Strength] Combat Strength and ignore Movement penalty in Hill terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_EVEREST_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Faith] Faith to adjacent tiles. Religious units that enter adjacent plots gain +4[ICON_Strength] Combat Strength and ignore Movement penalty in Hill terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It appears as a Volcano and provides +2 [ICON_Food] Food to adjacent tiles. On eruption it gives low yields and is most likely to damage improvements and buildings. Infrequently erupts, but is always active.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_RORAIMA_DESCRIPTION" Language="en_US">
+			<Text>Four tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Science] Science and +1 [ICON_Faith] Faith to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It appears as a Volcano and provides +1 [ICON_Production] Production to adjacent tiles. On Eruption it gives high yields to adjacent tiles, but large [ICON_Citizen] Population loss. It is always active.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PAITITI_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. It provides +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to adjacent tiles. The city that owns at least one of the tiles receives +4 [ICON_Gold] Gold on its outgoing international [ICON_TradeRoute] Trade Routes.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. It provides +1 [ICON_Gold] Gold to adjacent tiles, and Fresh Water. The city that owns at least one of the tiles receives +1 [ICON_AMENITIES] Amenity, and an additional +1 [ICON_AMENITIES] Amenity if adjacent to Entertainment Complex. Major adjacency bonus to Theater Square, Campus, and Commercial Hub districts, and standard adjacency bonus to the Holy Site district.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PANTANAL_DESCRIPTION" Language="en_US">
+			<Text>Four tile natural wonder. It appears as Marsh and provides +4 [ICON_Food] Food and +2 [ICON_Culture] Culture.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. It provides +1 [ICON_Science] Science and +1 [ICON_Culture] Culture to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION" Language="en_US">
+			<Text>Four tile natural wonder. It provides +2 [ICON_SCIENCE] Science, +2 [ICON_Culture] Culture, and +5 [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_TORRES_DEL_PAINE_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. It doubles the terrain yields of all adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_TSINGY_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It provides +1 [ICON_Science] Science, +1 [ICON_Culture] Culture, and +1 [ICON_Faith] Faith to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION" Language="en_US">
+			<Text>Four tile natural wonder. It appears as Marsh and provides +1 [ICON_Food] Food, +2 [ICON_Production] Production, and +3 [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_ULURU_DESCRIPTION" Language="en_US">
+			<Text>One tile impassable natural wonder. It provides +2 [ICON_Culture] Culture and +1 [ICON_Faith] Faith to adjacent tiles. Also provides +4 appeal, instead of the usual +2 appeal to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. Provides +1 [ICON_Food] Food, +1 [ICON_Gold] Gold and +1 [ICON_Science] Science to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_ZHANGYE_DANXIA_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Gold] Gold to adjacent tiles. If you own at least one of the tiles, you receive 2 [ICON_GREATGENERAL] Great General points and 2 [ICON_GREATMERCHANT] Great Merchant points.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_ALPINE_TRAINING__DESCRIPTION" Language="en_US">
+			<Text>Alpine Training: +4 [ICON_Strength] Combat Strength when fighting in Hills and no Movement penalty in Hill terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALPINE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength when fighting in Hills</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALTITUDE_TRAINING_DESCRIPTION" Language="en_US">
+			<Text>Altitude Training: +4 [ICON_Strength] Combat Strength when fighting in Hills and no Movement penalty in Hill terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALTITUDE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength when fighting in Hills</Text>
+		</Replace>
+		
+		<!-- goody hut -->
+		<Replace Tag="LOC_GOODYHUT_MILITARY_GRANT_SLINGER_DESCRIPTION" Language="en_US">
+			<Text>[COLOR_FLOAT_MILITARY]You have been granted a ranged unit.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_MILITARY_GRANT_WARRIOR_DESCRIPTION" Language="en_US">
+			<Text>[COLOR_FLOAT_MILITARY]You have been granted a melee unit.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_SCIENCE_RELIC_DESCRIPTION" Language="en_US">
+			<Text>[COLOR_FLOAT_SCIENCE]{1_Relic} Relic Was Awarded[ENDCOLOR]</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

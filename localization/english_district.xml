@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- districts -->
+		<Replace Tag="LOC_COMMERCIAL_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub district.</Text>
+		</Replace>
+		<Replace Tag="LOC_SUGUBA_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Suguba district.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CITY_CENTER_PRODUCTION_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CENTER_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CENTER_SCIENCE_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CENTER_CULTURE_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CENTER_FAITH_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent City Center.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CITY_CENTER_CULTURE_2_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CENTER_GOLD_2_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent City Center.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GOVERNMENT_PRODUCTION_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Government Plaza.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Government Plaza.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_SCIENCE_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Government Plaza.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_CULTURE_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Government Plaza.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_FAITH_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Government Plaza.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DIPLOMATIC_QUARTER_PRODUCTION_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Diplomatic Quarter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOMATIC_QUARTER_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Diplomatic Quarter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOMATIC_QUARTER_SCIENCE_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Diplomatic Quarter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOMATIC_QUARTER_CULTURE_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Diplomatic Quarter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOMATIC_QUARTER_FAITH_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Diplomatic Quarter.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_OASIS_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Oasis.</Text>
+		</Replace>
+		<Replace Tag="LOC_LUXURY_GOLD_BK" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Luxury resource.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>A district for naval activity in your city. No [ICON_Movement] Movement penalty for embarking and disembarking. Must be built on Coast or Lake adjacent to land. Cannot be built on Reef.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+			<Text>A district in your city dedicated to keeping your people happy. Cannot be built in a city with Water Park district.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+			<Text>A district placed on water dedicated to keeping your people happy. Must be built on Coast or Lake adjacent to land. Cannot be built in a city with Entertainment Complex district. Cannot be built on Reef.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="en_US">
+			<Text>A district that provides up to 6 [ICON_Housing] Housing based on Appeal.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
+			<Text>A district for protecting natural environment. Grants up to 3 [ICON_Housing] Housing based on Appeal. Culture bombs adjacent neutral tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="en_US">
+			<Text>A district placed once in your empire to commemorate your government choices. Provides +8 Loyalty per turn to this city. Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>A district placed once in your empire to facilitate international diplomacy. Grants +1 [ICON_FAVOR] Diplomatic Favor for each Delegation or Embassy from other civilizations. Awards +1 [ICON_Envoy] Envoy. Enemy Spies operate at 2 levels below normal when targeting this district or adjacent districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2" Language="en_US">
+			<Text>A district that is required to construct the Science Victory projects. Cannot be built on Hills.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="en_US">
+			<Text>A district that provides extra fresh water from adjacent water source. Cities with existing fresh water get +2 [ICON_Housing] Housing, and other cities get +1 [ICON_Housing] Housing in addition to full [ICON_Housing] Housing from fresh water. +1 [ICON_Amenities] Amenity if adjacent to Geothermal Fissure. Prevents [ICON_Food] Food loss during Drought.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="en_US">
+			<Text>A district built on Floodplains to improve the comfort of living along this river. Prevents damage from flooding of this river (though yields from flooding drop by 50%). Prevents [ICON_Food] Food loss during Drought.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="en_US">
+			<Text>A district built on flat land to connect two bodies of water or a body of water to City Center.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
