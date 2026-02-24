@@ -50,7 +50,7 @@
 		</UpdateText>
 		
 		<UpdateIcons id="icon_updates">
-			<File>data/icon.sql</File>
+			<File>icon/icon.sql</File>
 		</UpdateIcons>
 
 		<UpdateDatabase id="data_updates">
@@ -71,12 +71,15 @@
 			<File>data/plunder.sql</File>
 			<File>data/technology_civic.sql</File>
 			<File>data/building.sql</File>
+			<File>data/building_stockpile.sql</File>
 			<File>data/improvement.sql</File>
 			<File>data/resource.sql</File>
 			<File>data/energy.sql</File>
 			<File>data/naturalwonder.sql</File>
 			<File>data/goodyhut.sql</File>
 			<File>data/unit.sql</File>
+			<File>data/unit_promotion.sql</File>
+			<File>data/unit_aircarrier.sql</File>
 			<File>extra/satellite/satellite.sql</File>
 			<File>data/wonder.sql</File>
 			<File>data/religion.sql</File>
@@ -102,7 +105,7 @@
 		<File>localization/english_diplo.xml</File>
 		<File>localization/english_nature.xml</File>
 		<File>localization/english_other.xml</File>
-		<File>data/icon.sql</File>
+		<File>icon/icon.sql</File>
 		<File>data/base.sql</File>
 		<File>data/policy.sql</File>
 		<File>data/citystate.sql</File>
@@ -117,12 +120,15 @@
 		<File>data/plunder.sql</File>
 		<File>data/technology_civic.sql</File>
 		<File>data/building.sql</File>
+		<File>data/building_stockpile.sql</File>
 		<File>data/improvement.sql</File>
 		<File>data/resource.sql</File>
 		<File>data/energy.sql</File>
 		<File>data/naturalwonder.sql</File>
 		<File>data/goodyhut.sql</File>
 		<File>data/unit.sql</File>
+		<File>data/unit_promotion.sql</File>
+		<File>data/unit_aircarrier.sql</File>
 		<File>extra/satellite/satellite.sql</File>
 		<File>extra/satellite/satellite_popup.lua</File>
 		<File>data/wonder.sql</File>

@@ -12,8 +12,6 @@ INSERT INTO District_TradeRouteYields(DistrictType, YieldType, YieldChangeAsOrig
 		('DISTRICT_GOVERNMENT',			'YIELD_GOLD',		0,						0,									3),
 		('DISTRICT_DIPLOMATIC_QUARTER',	'YIELD_FOOD',		0,						1,									0),
 		('DISTRICT_DIPLOMATIC_QUARTER',	'YIELD_PRODUCTION',	0,						1,									0),
-		('DISTRICT_DIPLOMATIC_QUARTER',	'YIELD_GOLD',		0,						0,									3);
-
-INSERT INTO District_TradeRouteYields(DistrictType, YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination) VALUES
+		('DISTRICT_DIPLOMATIC_QUARTER',	'YIELD_GOLD',		0,						0,									3),
 		('DISTRICT_AERODROME',		'YIELD_PRODUCTION',		0,						1,									1),
 		('DISTRICT_PRESERVE',		'YIELD_FOOD',			0,						1,									1);

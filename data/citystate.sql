@@ -1,11 +1,10 @@
+-- Nan madol nerf
 INSERT INTO RequirementSets ( RequirementSetId, RequirementSetType ) VALUES
 		( 'SPECIAL_DISTRICT_ON_COAST_BK', 'REQUIREMENTSET_TEST_ALL' );
 INSERT INTO RequirementSetRequirements ( RequirementSetId, RequirementId ) VALUES
 		( 'SPECIAL_DISTRICT_ON_COAST_BK', 'REQUIRES_PLOT_IS_ADJACENT_TO_COAST' ),
 		( 'SPECIAL_DISTRICT_ON_COAST_BK', 'REQUIRES_DISTRICT_IS_SPECIALTY_DISTRICT_BK' );
 UPDATE Modifiers SET SubjectRequirementSetId='SPECIAL_DISTRICT_ON_COAST_BK' WHERE ModifierId='MINOR_CIV_NAN_MADOL_DISTRICTS_CULTURE_BONUS';
-
--- Nan madol nerf
 UPDATE ModifierArguments SET Value='1' WHERE ModifierId='MINOR_CIV_NAN_MADOL_DISTRICTS_CULTURE_BONUS' AND Name='Amount';
 
 -- Kumasi nerf
