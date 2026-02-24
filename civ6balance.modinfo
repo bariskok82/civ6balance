@@ -50,44 +50,44 @@
 		</UpdateText>
 		
 		<UpdateIcons id="icon_updates">
-			<File>icon.sql</File>
+			<File>data/icon.sql</File>
 		</UpdateIcons>
 
 		<UpdateDatabase id="data_updates">
 			<Properties>
 				<LoadOrder>20000</LoadOrder>
 			</Properties>
-			<File>base.sql</File>
-			<File>policy.sql</File>
-			<File>citystate.sql</File>
-			<File>greatperson.sql</File>
-			<File>greatwork.sql</File>
-			<File>district.sql</File>
-			<File>district_cost.sql</File>
-			<File>district_adjacency.sql</File>
-			<File>district_trade.sql</File>
-			<File>specialist.sql</File>
-			<File>route.sql</File>
-			<File>plunder.sql</File>
-			<File>technology_civic.sql</File>
-			<File>building.sql</File>
-			<File>improvement.sql</File>
-			<File>resource.sql</File>
-			<File>energy.sql</File>
-			<File>naturalwonder.sql</File>
-			<File>goodyhut.sql</File>
-			<File>unit.sql</File>
-			<File>satellite.sql</File>
-			<File>wonder.sql</File>
-			<File>religion.sql</File>
-			<File>governor.sql</File>
-			<File>event.sql</File>
-			<File>leader.sql</File>
+			<File>data/base.sql</File>
+			<File>data/policy.sql</File>
+			<File>data/citystate.sql</File>
+			<File>data/greatperson.sql</File>
+			<File>data/greatwork.sql</File>
+			<File>data/district.sql</File>
+			<File>data/district_cost.sql</File>
+			<File>data/district_adjacency.sql</File>
+			<File>data/district_trade.sql</File>
+			<File>data/specialist.sql</File>
+			<File>data/route.sql</File>
+			<File>data/plunder.sql</File>
+			<File>data/technology_civic.sql</File>
+			<File>data/building.sql</File>
+			<File>data/improvement.sql</File>
+			<File>data/resource.sql</File>
+			<File>data/energy.sql</File>
+			<File>data/naturalwonder.sql</File>
+			<File>data/goodyhut.sql</File>
+			<File>data/unit.sql</File>
+			<File>extra/satellite/satellite.sql</File>
+			<File>data/wonder.sql</File>
+			<File>data/religion.sql</File>
+			<File>data/governor.sql</File>
+			<File>data/event.sql</File>
+			<File>data/leader.sql</File>
 		</UpdateDatabase>
 		<ReplaceUIScript id="ProjectBuiltPopup">
 			<Properties>
 				<LuaContext>ProjectBuiltPopup</LuaContext>
-				<LuaReplace>satellite_popup.lua</LuaReplace>
+				<LuaReplace>extra/satellite/satellite_popup.lua</LuaReplace>
 			</Properties>
 		</ReplaceUIScript>
 	</InGameActions>
@@ -102,34 +102,34 @@
 		<File>localization/english_diplo.xml</File>
 		<File>localization/english_nature.xml</File>
 		<File>localization/english_other.xml</File>
-		<File>icon.sql</File>
-		<File>base.sql</File>
-		<File>policy.sql</File>
-		<File>citystate.sql</File>
-		<File>greatperson.sql</File>
-		<File>greatwork.sql</File>
-		<File>district.sql</File>
-		<File>district_cost.sql</File>
-		<File>district_adjacency.sql</File>
-		<File>district_trade.sql</File>
-		<File>specialist.sql</File>
-		<File>route.sql</File>
-		<File>plunder.sql</File>
-		<File>technology_civic.sql</File>
-		<File>building.sql</File>
-		<File>improvement.sql</File>
-		<File>resource.sql</File>
-		<File>energy.sql</File>
-		<File>naturalwonder.sql</File>
-		<File>goodyhut.sql</File>
-		<File>unit.sql</File>
-		<File>satellite.sql</File>
-		<File>satellite_popup.lua</File>
-		<File>wonder.sql</File>
-		<File>religion.sql</File>
-		<File>governor.sql</File>
-		<File>event.sql</File>
-		<File>leader.sql</File>
+		<File>data/icon.sql</File>
+		<File>data/base.sql</File>
+		<File>data/policy.sql</File>
+		<File>data/citystate.sql</File>
+		<File>data/greatperson.sql</File>
+		<File>data/greatwork.sql</File>
+		<File>data/district.sql</File>
+		<File>data/district_cost.sql</File>
+		<File>data/district_adjacency.sql</File>
+		<File>data/district_trade.sql</File>
+		<File>data/specialist.sql</File>
+		<File>data/route.sql</File>
+		<File>data/plunder.sql</File>
+		<File>data/technology_civic.sql</File>
+		<File>data/building.sql</File>
+		<File>data/improvement.sql</File>
+		<File>data/resource.sql</File>
+		<File>data/energy.sql</File>
+		<File>data/naturalwonder.sql</File>
+		<File>data/goodyhut.sql</File>
+		<File>data/unit.sql</File>
+		<File>extra/satellite/satellite.sql</File>
+		<File>extra/satellite/satellite_popup.lua</File>
+		<File>data/wonder.sql</File>
+		<File>data/religion.sql</File>
+		<File>data/governor.sql</File>
+		<File>data/event.sql</File>
+		<File>data/leader.sql</File>
 	</Files>
 </Mod>
 
