@@ -1,65 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>		
-		<!-- improvements -->
-		<Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Farms.[NEWLINE][NEWLINE]Must be built on Grassland or Plains.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Mines.[NEWLINE][NEWLINE]Must be built on Hills or valid resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Quarries.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Fishing Boats.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Pastures.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_CAMP_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Camps.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]Must be built on valid resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Lumber Mills.[NEWLINE][NEWLINE]Must be built on Woods or Rainforest.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Oil Wells.[NEWLINE][NEWLINE]Must be built on land with [ICON_RESOURCE_OIL] Oil.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Offshore Oil Rigs.[NEWLINE][NEWLINE]Must be built on Coast or Lake with [ICON_RESOURCE_OIL] Oil.</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Military Engineer ability to construct Forts.[NEWLINE][NEWLINE]Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Production] Production if the city has a garrisoned unit.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Military Engineer ability to construct Airstrips.[NEWLINE][NEWLINE]Can support 2 air units.[NEWLINE]Must be built on flat land.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Military Engineer ability to construct Missile Siloes.[NEWLINE][NEWLINE]Acts as a launch site for Nuclear and Thermonuclear Devices.</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Fisheries.[NEWLINE][NEWLINE]+1 [ICON_Food] Food for every adjacent sea resource.[NEWLINE]Must be built on Coast.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct City Parks.[NEWLINE][NEWLINE]+1 [ICON_Amenities] Amenity if adjacent to water.[NEWLINE]Cannot be built adjacent to another City Park.</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Ski Resorts.[NEWLINE][NEWLINE]Provides +4 [ICON_TOURISM] Tourism.[NEWLINE]Must be built on Mountain (Grassland, Plains, Tundra, or Snow). Cannot be built adjacent to another Ski Resort. Cannot be pillaged or removed.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_Gold] Gold and [ICON_Tourism] Tourism equal to Appeal.[NEWLINE]Must be built on Grassland, Plains, or Desert without Hills adjacent to Coast. Minimum Appeal of Breathtaking.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Military Engineer ability to construct a Mountain Tunnel.[NEWLINE][NEWLINE]Can transport land units at cost of 2 [ICON_Movement] Movement.[NEWLINE]Must be built on Mountain. Cannot be pillaged or removed.</Text>
-		</Replace>
-		
+		<!-- improvements -->		
 		<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct Wind Farms.[NEWLINE][NEWLINE]Provides +1 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE]Extra +1 [ICON_Power] Power per turn and +2 [ICON_Gold] Gold if built adjacent to Coast.[NEWLINE]Must be built on Hills.</Text>
 		</Replace>
