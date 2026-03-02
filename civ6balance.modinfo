@@ -1,22 +1,16 @@
-﻿<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="2">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="45D4DEDD-04AC-2F89-8529-86A339D6663C" version="2">
 	<Properties>
 		<Name>bariskok82's Civ 6 Balance</Name>
-		<Description>bariskok82's Civ 6 Balance (Personal Use)</Description>
 		<Teaser>bariskok82's Civ 6 Balance</Teaser>
+		<Description>bariskok82's Civ 6 Balance (Personal Use)</Description>
 		<Authors>bariskok82</Authors>
-		<Version>2</Version>
-		<SpecialThanks>Everyone</SpecialThanks>
-		<CompatibleVersions>2.0</CompatibleVersions>
 		<AffectsSavedGames>1</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 	<Dependencies>
     	<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
 	</Dependencies>
-	<!-- can load only select files based on these requirements, if applied -->
-	<ActionCriteria>
-	</ActionCriteria>
-
-	<!-- defines pre-game mods (e.g. menus, visual, text, etc..) -->
 	<FrontEndActions>
 		<UpdateText id="pregame_text_updates">
 			<Properties>
@@ -32,8 +26,6 @@
 			<File>localization/english_other.xml</File>
 		</UpdateText>
 	</FrontEndActions>
-
-	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
 	<InGameActions>
 		<UpdateText id="text_updates">
 			<Properties>
