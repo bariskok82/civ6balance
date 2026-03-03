@@ -5,8 +5,6 @@ INSERT OR REPLACE INTO EnglishText (Tag, Text) VALUES
     ('LOC_BUILDING_WALLS_DESCRIPTION', 'Provides district defenses and [ICON_Ranged] Ranged Strikes ability to City Center and Encampment district.[NEWLINE]Provides 1 [ICON_TOURISM] Tourism after Conservation Civic.'),
     ('LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION', 'Increases the strength of district defenses. This city is not affected by Battering Rams.[NEWLINE]Provides 2 [ICON_TOURISM] Tourism after Conservation Civic.'),
     ('LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION', 'Increases the strength of district defenses. This city is not affected by Siege Towers or Battering Rams.[NEWLINE]Provides 3 [ICON_TOURISM] Tourism after Conservation Civic.'),
-    ('LOC_BUILDING_MUSEUM_ART_DESCRIPTION', null),
-    ('LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION', null),
     ('LOC_BUILDING_SHRINE_DESCRIPTION', 'Allows purchasing Missionaries with [ICON_Faith] Faith.'),
     ('LOC_BUILDING_TEMPLE_DESCRIPTION', 'Allows purchasing Apostles, Gurus, and Inquisitors with [ICON_Faith] Faith.'),
     ('LOC_BUILDING_MOSQUE_DESCRIPTION', 'Missionary and Apostles purchased here can spread Religion 1 extra time.'),
