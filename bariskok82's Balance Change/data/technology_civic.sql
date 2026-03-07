@@ -12,6 +12,8 @@ UPDATE Units SET PrereqTech = 'TECH_SQUARE_RIGGING', PrereqCivic=null WHERE Unit
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_STEEL', ObsoleteCivic = NULL WHERE UnitType='UNIT_BATTERING_RAM';
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_STEEL', ObsoleteCivic = NULL WHERE UnitType='UNIT_SIEGE_TOWER';
 
+UPDATE Improvements SET PrereqTech='TECH_COMBUSTION' WHERE ImprovementType='IMPROVEMENT_OFFSHORE_OIL_RIG';
+
 UPDATE Buildings SET PrereqCivic='CIVIC_EXPLORATION', Cost=330 WHERE BuildingType='BUILDING_SANCTUARY';
 
 UPDATE Policies SET PrereqCivic='CIVIC_CRAFTSMANSHIP' WHERE PolicyType='POLICY_LIMITANEI';

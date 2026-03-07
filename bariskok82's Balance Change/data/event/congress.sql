@@ -1,5 +1,5 @@
 UPDATE GlobalParameters SET Value='3' WHERE Name='WORLD_CONGRESS_INITIAL_ERA';
-UPDATE GlobalParameters SET Value='30' WHERE Name='DIPLOMATIC_VICTORY_POINTS_REQUIRED';
+UPDATE GlobalParameters SET Value='20' WHERE Name='DIPLOMATIC_VICTORY_POINTS_REQUIRED';
 
 UPDATE GlobalParameters SET Value='-20' WHERE Name='FAVOR_CO2_MINIMUM';
 UPDATE GlobalParameters SET Value='-20' WHERE Name='FAVOR_GRIEVANCES_MINIMUM';
@@ -8,8 +8,6 @@ UPDATE GlobalParameters SET Value='-2' WHERE Name='FAVOR_PER_OWNED_ORIGINAL_CAPI
 UPDATE GlobalParameters SET Value='6' WHERE Name='WORLD_CONGRESS_REQUEST_FOR_AID_DAMAGE_MIN';
 
 UPDATE ModifierArguments SET Value = 30 WHERE ModifierId = 'ANYONE_CONDEMNS_FOR_FAVOR' AND Name = 'Amount';
-UPDATE ModifierArguments SET Value = -6 WHERE ModifierId = 'WC_RES_CITY_LOYALTY_PENALTY' AND Name = 'Amount';
-UPDATE ModifierArguments SET Value = 6 WHERE ModifierId = 'WC_RES_CITY_LOYALTY_BONUS' AND Name = 'Amount';
 UPDATE ModifierArguments SET Value = 400 WHERE ModifierId = 'WC_RES_MODIFY_CITY_STATE_TRADE_YIELD' AND Name = 'Amount';
 
 INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES

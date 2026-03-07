@@ -1,18 +1,17 @@
 UPDATE ModifierArguments SET Value=2 WHERE ModifierId='MONUMENT_LOYALTY' AND Name='Amount';
 
-UPDATE Buildings SET Housing=3 WHERE BuildingType='BUILDING_SEWER';
 UPDATE Buildings SET Entertainment=1 WHERE BuildingType='BUILDING_SEWER';
 
 UPDATE ModifierArguments SET Value=1 WHERE ModifierId='LIGHTHOUSE_COASTAL_CITY_HOUSING' AND Name='Amount';
 
 INSERT INTO Building_YieldChanges(BuildingType, YieldType, YieldChange) VALUES			
-		('BUILDING_SHIPYARD', 							'YIELD_PRODUCTION',					1);
+	('BUILDING_SHIPYARD', 'YIELD_PRODUCTION', 1);
 UPDATE Modifiers SET SubjectRequirementSetId='PLOT_HAS_REEF_BK' WHERE ModifierId='SHIPYARD_UNIMPROVED_COAST_PRODUCTION';
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
-		('PLOT_HAS_REEF_BK', 							'REQUIREMENTSET_TEST_ALL');
+	('PLOT_HAS_REEF_BK', 'REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
-		('PLOT_HAS_REEF_BK',							'REQUIRES_PLOT_HAS_REEF');
-	
+	('PLOT_HAS_REEF_BK', 'REQUIRES_PLOT_HAS_REEF');
+
 UPDATE Buildings SET Housing=1 WHERE BuildingType='BUILDING_HANGAR';
 
 UPDATE Buildings SET Housing=1 WHERE BuildingType='BUILDING_AIRPORT';

@@ -20,6 +20,7 @@ UPDATE GreatWork_YieldChanges SET YieldChange='3' WHERE GreatWorkType IN (SELECT
 
 DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_CANTEMIR_3';
 DELETE FROM GreatWorks WHERE GreatWorkType='GREATWORK_BABYLON_JOPLIN_3';
+
 UPDATE Building_GreatWorks SET NonUniquePersonYield=0, NonUniquePersonTourism=0;
 
 INSERT INTO TechnologyModifiers(TechnologyType, ModifierId) VALUES
