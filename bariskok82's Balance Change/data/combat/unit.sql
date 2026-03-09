@@ -11,4 +11,4 @@ DELETE FROM Units_XP2 WHERE UnitType='UNIT_CATAPULT';
 DELETE FROM Units_XP2 WHERE UnitType='UNIT_BIPLANE';
 DELETE FROM Units_XP2 WHERE UnitType='UNIT_SUBMARINE';
 INSERT INTO Units_XP2(UnitType, ResourceCost, ResourceMaintenanceType, ResourceMaintenanceAmount, CanEarnExperience, CanFormMilitaryFormation) VALUES
-		('UNIT_AIRCRAFT_CARRIER', 1, 'RESOURCE_OIL', 1, 0, 0);
+	('UNIT_AIRCRAFT_CARRIER', 1, 'RESOURCE_OIL', 1, 0, 0);
