@@ -6,11 +6,7 @@ UPDATE ModifierArguments SET Value=1 WHERE ModifierId='LIGHTHOUSE_COASTAL_CITY_H
 
 INSERT INTO Building_YieldChanges(BuildingType, YieldType, YieldChange) VALUES			
 	('BUILDING_SHIPYARD', 'YIELD_PRODUCTION', 1);
-UPDATE Modifiers SET SubjectRequirementSetId='PLOT_HAS_REEF_BK' WHERE ModifierId='SHIPYARD_UNIMPROVED_COAST_PRODUCTION';
-INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
-	('PLOT_HAS_REEF_BK', 'REQUIREMENTSET_TEST_ALL');
-INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
-	('PLOT_HAS_REEF_BK', 'REQUIRES_PLOT_HAS_REEF');
+DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_SHIPYARD' AND ModifierId='SHIPYARD_UNIMPROVED_COAST_PRODUCTION';
 
 UPDATE Buildings SET Housing=1 WHERE BuildingType='BUILDING_HANGAR';
 
