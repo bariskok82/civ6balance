@@ -1,3 +1,4 @@
+-- Recon Unit
 UPDATE ModifierArguments SET Value=2 WHERE ModifierId='SPYGLASS_BONUS_SIGHT' AND Name='Amount';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES 
 	('PROMOTION_SENTRY', 'SENTRY_MORE_XP_BK82'),
@@ -12,6 +13,9 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 	('GUERRILLA_IGNORE_ZOC_BK82', 'Ignore', 1),
 	('CAMOUFLAGE_MOVEMENT_BK82', 'Amount', 1);
 
+-- Melee Unit
+
+-- Ranged Unit
 DELETE FROM RequirementSetRequirements WHERE RequirementSetId='EMPLACEMENT_REQUIREMENTS' AND RequirementId='OPPONENT_PLOT_IS_CITY_CENTER_REQUIREMENT';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES 
 	('PROMOTION_SUPPRESSION', 'SUPPRESSION_NEGATIVE_COMBAT_BK82');
@@ -33,6 +37,7 @@ INSERT INTO RequirementArguments(RequirementId, Name, Value) VALUES
 	('SUPPRESSION_ADJACENT_AT_WAR_REQUIREMENT', 'MinDistance', 1),
 	('SUPPRESSION_ADJACENT_AT_WAR_REQUIREMENT', 'MaxDistance', 1);
 
+-- Anti-Cavalry Unit
 DELETE FROM UnitPromotionModifiers WHERE UnitPromotionType='PROMOTION_SCHILTRON';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES
 	('PROMOTION_SCHILTRON', 'SCHILTRON_LESS_DAMAGE_WEAKNESS_BK82');
@@ -41,6 +46,7 @@ INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId, Subject
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 	('SCHILTRON_LESS_DAMAGE_WEAKNESS_BK82', 'Amount', 80);
 
+-- Light Cavalry Unit
 DELETE FROM UnitPromotionModifiers WHERE UnitPromotionType='PROMOTION_SPIKING_THE_GUNS';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES
 	('PROMOTION_SPIKING_THE_GUNS', 'SPIKING_THE_GUNS_UNWOUNDED_ATTACK_BK82'),
@@ -69,6 +75,7 @@ INSERT INTO RequirementArguments(RequirementId, Name, Value) VALUES
 	('REQUIRES_IS_UNWOUNDED_BK82', 'MinimumAmount', 1),
 	('REQUIRES_ADJACENT_UNIT_BK82', 'MinDistance', 1);
 
+-- Heavy Cavalry Unit
 DELETE FROM UnitPromotionModifiers WHERE UnitPromotionType='PROMOTION_REACTIVE_ARMOR';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES
 	('PROMOTION_REACTIVE_ARMOR', 'REACTIVE_ARMOR_UNWOUNDED_DEFENSE_BK82');
@@ -83,6 +90,7 @@ INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
 	('REACTIVE_ARMOR_UNIT_UNWOUNDED_BK82', 'REQUIRES_IS_UNWOUNDED_BK82'),
 	('REACTIVE_ARMOR_UNIT_UNWOUNDED_BK82', 'PLAYER_IS_DEFENDER_REQUIREMENTS');
 
+-- Siege Unit
 UPDATE ModifierArguments SET Value=7 WHERE ModifierId='ADVANCED_RANGEFINDING_BONUS_VS_NAVAL' AND Name='Amount';
 DELETE FROM RequirementSetRequirements WHERE RequirementSetId='ADVANCED_RANGEFINDING_REQUIREMENTS' AND RequirementId='OPPONENT_IS_SEA_UNIT';
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
@@ -100,6 +108,7 @@ INSERT INTO Requirements(RequirementId, RequirementType, Inverse) VALUES
 INSERT INTO RequirementArguments(RequirementId, Name, Value) VALUES
 	('ADVANCED_RANGEFINDING_PLOTS_MET_BK82', 'RequirementSetId', 'ADVANCED_RANGEFINDING_PLOTS_BK82');
 
+-- Naval Melee Unit
 DELETE FROM UnitPromotionModifiers WHERE UnitPromotionType='PROMOTION_RUTTER';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES
 	('PROMOTION_HELMSMAN', 'RUTTER_SIGHT_BONUS'),
@@ -112,12 +121,17 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 	('RUTTER_SEE_THROUGH_BK82', 'CanSee', 1),
 	('RUTTER_MORE_XP_BK82', 'Amount', 50);
 
+-- Naval Ranged Unit
+
+-- Naval Raider Unit
 UPDATE ModifierArguments SET Value=2 WHERE ModifierId='OBSERVATION_INCREASED_SIGHT_RANGE' AND Name='Amount';
 
+-- Air Fighter Unit
 DELETE FROM RequirementSetRequirements WHERE RequirementSetId='STRAFE_OPPONENT_REQUIREMENTS' AND RequirementId='OPPONENT_IS_NOT_AIR_UNIT_REQUIREMENTS';
 INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
 	('STRAFE_OPPONENT_REQUIREMENTS', 'OPPONENT_IS_LAND_UNIT_REQUIREMENTS');
 
+-- Air Bomber Unit
 DELETE FROM UnitPromotionModifiers WHERE UnitPromotionType='PROMOTION_SUPERFORTRESS';
 INSERT INTO UnitPromotionModifiers(UnitPromotionType, ModifierId) VALUES
 	('PROMOTION_SUPERFORTRESS', 'SUPERFORTRESS_BONUS_VS_DISTRICTS_BK82');

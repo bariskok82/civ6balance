@@ -19,6 +19,7 @@ UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', 
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 30, Cost = 90 WHERE DistrictType='DISTRICT_AERODROME';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 30, Cost = 60 WHERE DistrictType='DISTRICT_ENTERTAINMENT_COMPLEX';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 20, Cost = 40 WHERE DistrictType='DISTRICT_STREET_CARNIVAL';
+UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 20, Cost = 40 WHERE DistrictType='DISTRICT_HIPPODROME';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 30, Cost = 60 WHERE DistrictType='DISTRICT_WATER_ENTERTAINMENT_COMPLEX';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 20, Cost = 40 WHERE DistrictType='DISTRICT_WATER_STREET_CARNIVAL';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 30, Cost = 60 WHERE DistrictType='DISTRICT_PRESERVE';
@@ -28,6 +29,6 @@ UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', 
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 10, Cost = 20 WHERE DistrictType='DISTRICT_BATH';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 30, Cost = 60 WHERE DistrictType='DISTRICT_DAM';
 UPDATE Districts SET CostProgressionModel = 'COST_PROGRESSION_PREVIOUS_COPIES', CostProgressionParam1 = 45, Cost = 90 WHERE DistrictType='DISTRICT_CANAL';
-UPDATE Districts SET Cost = 1800 WHERE DistrictType='DISTRICT_SPACEPORT';
-UPDATE Districts SET Cost = 90 WHERE DistrictType='DISTRICT_GOVERNMENT';
-UPDATE Districts SET Cost = 90 WHERE DistrictType='DISTRICT_DIPLOMATIC_QUARTER';
+UPDATE Districts SET CostProgressionModel = 'NO_COST_PROGRESSION', CostProgressionParam1 = 0, Cost = 1800 WHERE DistrictType='DISTRICT_SPACEPORT';
+UPDATE Districts SET CostProgressionModel = 'NO_COST_PROGRESSION', CostProgressionParam1 = 0, Cost = 90 WHERE DistrictType='DISTRICT_GOVERNMENT';
+UPDATE Districts SET CostProgressionModel = 'NO_COST_PROGRESSION', CostProgressionParam1 = 0, Cost = 90 WHERE DistrictType='DISTRICT_DIPLOMATIC_QUARTER';

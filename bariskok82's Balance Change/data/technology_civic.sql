@@ -29,4 +29,7 @@ DELETE FROM ObsoletePolicies WHERE PolicyType='POLICY_SURVEY';
 DELETE FROM ObsoletePolicies WHERE PolicyType='POLICY_INSULAE';
 DELETE FROM ObsoletePolicies WHERE PolicyType='POLICY_MEDINA_QUARTER';
 DELETE FROM ObsoletePolicies WHERE PolicyType='POLICY_LIBERALISM';
+DELETE FROM ObsoletePolicies WHERE PolicyType='POLICY_REVELATION';
 UPDATE ObsoletePolicies SET ObsoletePolicy='POLICY_PUBLIC_WORKS' WHERE PolicyType='POLICY_ILKUM';
+UPDATE ObsoletePolicies SET ObsoletePolicy='POLICY_LAISSEZ_FAIRE' WHERE PolicyType='POLICY_NAVIGATION';
+UPDATE ObsoletePolicies SET ObsoletePolicy='POLICY_NOBEL_PRIZE' WHERE PolicyType='POLICY_INVENTION';
