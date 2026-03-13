@@ -21,7 +21,12 @@ INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
 	('IS_RANGEDSTRIKE_BK82', 'REQUIRES_COMBAT_IS_CITY_STRIKE'),
 	('IS_RANGEDSTRIKE_BK82', 'PLAYER_IS_ATTACKER_REQUIREMENTS');
 
-UPDATE ModifierArguments SET Value='50' WHERE ModifierId IN (SELECT ModifierId FROM PolicyModifiers WHERE PolicyType='POLICY_LIMES') AND Name='Amount';
+UPDATE ModifierArguments SET Value = '50'
+WHERE ModifierId IN (
+		SELECT ModifierId FROM PolicyModifiers
+		WHERE PolicyType = 'POLICY_LIMES'
+	)
+	AND Name = 'Amount';
 
 UPDATE ModifierArguments SET Value='8' WHERE ModifierId='ECOMMERCE_INTERNATIONALTRADEGOLD' AND Name='Amount';
 
@@ -56,9 +61,10 @@ UPDATE ModifierArguments SET Value='-25' WHERE ModifierId='DISINFORMATION_CAMPAI
 
 UPDATE ModifierArguments SET Value = '50'
 WHERE ModifierId IN (
-	SELECT ModifierId FROM PolicyModifiers
-	WHERE PolicyType IN ("POLICY_MARITIME_INDUSTRIES", "POLICY_PRESS_GANGS", "POLICY_INTERNATIONAL_WATERS")
-) AND ModifierArguments.Name == "Amount";
+		SELECT ModifierId FROM PolicyModifiers
+		WHERE PolicyType IN ("POLICY_MARITIME_INDUSTRIES", "POLICY_PRESS_GANGS", "POLICY_INTERNATIONAL_WATERS")
+	)
+	AND ModifierArguments.Name == "Amount";
 
 UPDATE ModifierArguments SET Value='2' WHERE ModifierId='INVENTION_GREATENGINEERPOINTS' AND Name='Amount';
 
@@ -66,8 +72,8 @@ INSERT INTO PolicyModifiers(PolicyType, ModifierId) VALUES
 	('POLICY_NUCLEAR_ESPIONAGE', 'NUCLEAR_ESPIONAGE_DIPLOMATIC_FAVOR_BK82');
 INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES
 	('NUCLEAR_ESPIONAGE_DIPLOMATIC_FAVOR_BK82', 'MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_FAVOR_PER_TURN', 'CITY_HAS_RESEARCH_LAB_BK82');
-INSERT INTO ModifierArguments(ModifierId, Name, Value, Extra) VALUES
-	('NUCLEAR_ESPIONAGE_DIPLOMATIC_FAVOR_BK82', 'Amount', 1, -1);
+INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
+	('NUCLEAR_ESPIONAGE_DIPLOMATIC_FAVOR_BK82', 'Amount', 1);
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
 	('CITY_HAS_RESEARCH_LAB_BK82', 'REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
@@ -81,8 +87,8 @@ INSERT INTO PolicyModifiers(PolicyType, ModifierId) VALUES
 	('POLICY_SPORTS_MEDIA', 'SPORTSMEDIA_AQUATICSENTERTAINMENT_BK82');
 INSERT INTO Modifiers(ModifierId, ModifierType, SubjectRequirementSetId) VALUES
 	('SPORTSMEDIA_AQUATICSENTERTAINMENT_BK82', 'MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY', 'CITY_HAS_AQUATICS_CENTER_BK82');
-INSERT INTO ModifierArguments(ModifierId, Name, Value, Extra) VALUES
-	('SPORTSMEDIA_AQUATICSENTERTAINMENT_BK82', 'Amount', 1, -1);
+INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
+	('SPORTSMEDIA_AQUATICSENTERTAINMENT_BK82', 'Amount', 1);
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
 	('CITY_HAS_AQUATICS_CENTER_BK82', 'REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements(RequirementSetId, RequirementId) VALUES
